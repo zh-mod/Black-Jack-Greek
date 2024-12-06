@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+{% extends 'base.html' %}
+{% block title %}Lerne Griechisch{% endblock %}
+
+{% block content %}
+
+    <div class="container">
+        <div class="row">
+            {% for chapter in chapters %}
+                <div class="col-lx-2 col-md-4">
+                    <div class="card bg-dark m-5">
+                        <a href="{{ url_for('quiz_write_greek', chapter=chapter) }}" style="text-decoration: none; color: white">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">{{ chapter }}</h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+
+{% endblock %}

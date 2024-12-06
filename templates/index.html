@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+{% extends 'base.html' %}
+{% block title %}Black Jack Trainer{% endblock %}
+
+{% block content %}
+
+<div class=>
+      <div class="container-fluid py-5">
+		  <div class="container">
+
+			  <div class="row">
+				<h1 class="fw-bold text-center py-4">Dealer's Hand</h1>
+			  </div>
+			  <div class="row">
+				  <div class="col-3"></div>
+				  <div class="col-3">
+					  <img src="static/images/card_images/{{dealer_hand[0]}}.gif" style="width: 250px" alt="">
+				  </div>
+				  <div class="col-3">
+					  <img src="static/images/card_images/back.gif" style="width: 250px" alt="">
+				  </div>
+				  <div class="col-3"></div>
+			  </div>
+			  <div class="row">
+				<h1 class="fw-bold text-center py-4">Your Hand</h1>
+			  </div>
+			  <div class="row">
+				  <div class="col-3"></div>
+				  <div class="col-3">
+					  <img src="static/images/card_images/{{player_hand[0]}}.gif" style="width: 250px" alt="">
+				  </div>
+				  <div class="col-3">
+					  <img src="static/images/card_images/{{player_hand[1]}}.gif" style="width: 250px" alt="">
+				  </div>
+				  <div class="col-3"></div>
+			  </div>
+
+			  <div style="height: 50px"></div>
+
+				  <div class="row">
+				    {% if ideal_strategy == "Stand" %}
+						<div class="card correct text-white m-5 col-2">
+					{% else %}
+						<div class="card wrong text-white m-5 col-2">
+					{% endif %}
+						  <div class="card-body">
+							<h5 class="card-title text-center">Stand</h5>
+						  </div>
+						</div>
+
+				    {% if ideal_strategy == "Hit" %}
+						<div class="card correct text-white m-5 col-2">
+					{% else %}
+						<div class="card wrong text-white m-5 col-2">
+					{% endif %}
+						  <div class="card-body">
+							<h5 class="card-title text-center">Hit</h5>
+						  </div>
+						</div>
+
+				    {% if ideal_strategy == "Double" %}
+						<div class="card correct text-white m-5 col-2">
+					{% else %}
+						<div class="card wrong text-white m-5 col-2">
+					{% endif %}
+						  <div class="card-body">
+							<h5 class="card-title text-center">Double</h5>
+						  </div>
+						</div>
+
+				    {% if ideal_strategy == "Split" %}
+						<div class="card correct text-white m-5 col-2">
+					{% else %}
+						<div class="card wrong text-white m-5 col-2">
+					{% endif %}
+						  <div class="card-body">
+							<h5 class="card-title text-center">Split</h5>
+						  </div>
+						</div>
+
+
+		  </div>
+
+		
+
+
+      </div>
+</div>
+
+
+
+{% endblock %}

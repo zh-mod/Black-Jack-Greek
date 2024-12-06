@@ -1,0 +1,19 @@
+.card {
+    background-color: black
+}
+
+.correct:hover {
+    background-color: lime
+}
+
+.wrong:hover {
+    background-color: crimson
+}
+
+.solution {
+    color: black;
+}
+
+.solution:active {
+    color: white;
+}
