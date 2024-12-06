@@ -489,7 +489,5 @@ def quiz_write_greek(chapter):
     return render_template("quiz.html", german=german, greek=greek)
 
 
-
-
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
