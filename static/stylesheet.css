@@ -14,6 +14,6 @@
     color: black;
 }
 
-.solution:active {
+.solution:hover {
     color: white;
 }
