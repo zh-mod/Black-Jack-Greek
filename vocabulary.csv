@@ -1,6 +1,5 @@
 ﻿Griechisch;Deutsch;Typ;Kategorie
 καλά;gut;Adjektiv;Lehrbuch 1
-μια χαρά;blendend, sehr gut;Adjektiv;Lehrbuch 1
 δύσκολα;schwierig;Adjektiv;Lehrbuch 1
 εύκολα;einfach;Adjektiv;Lehrbuch 1
 το μήνυμα;die Botschaft;Nomen;Lehrbuch 1
@@ -23,7 +22,7 @@
 τα νέα ελληνικά;Neugriechisch;Nomen;Lehrbuch 1
 η Θεσσαλονίκη;Thessaloniki;Nomen;Lehrbuch 1
 και;und, auch;Partikel;Lehrbuch 1
-όμως;aber;Partikel;Lehrbuch 1
+όμως, αλλά;aber (2 W);Partikel;Lehrbuch 1
 ακόμη / ακόμα;noch;Partikel;Lehrbuch 1
 δε;nicht, kein;Partikel;Lehrbuch 1
 τίποτα & τίποτε;nichts;Partikel;Lehrbuch 1
@@ -31,13 +30,11 @@
 όχι;nein;Partikel;Lehrbuch 1
 ευχαριστώ;danke;Partikel;Lehrbuch 1
 ναι;ja;Partikel;Lehrbuch 1
-αλλά;aber;Partikel;Lehrbuch 1
 μόνο;nur;Partikel;Lehrbuch 1
 λίγο;ein wenig;Partikel;Lehrbuch 1
 τώρα;jetzt;Partikel;Lehrbuch 1
 βέβαια;natürlich, freilich;Partikel;Lehrbuch 1
 λοιπόν;also;Partikel;Lehrbuch 1
-έτσι;so;Partikel;Lehrbuch 1
 με;mit;Partikel;Lehrbuch 1
 στο;im, in;Partikel;Lehrbuch 1
 εδώ;hier;Partikel;Lehrbuch 1
@@ -60,15 +57,49 @@
 το;das (sg);Pronomen;Lehrbuch 1
 οι;der, die (pl);Pronomen;Lehrbuch 1
 τα;das (pl);Pronomen;Lehrbuch 1
-καλησπέρα;guten Tag / Abend;Pronomen;Lehrbuch 1
-γεια σου;Hallo;Spruch;Lehrbuch 1
+Καλημέρα;guten Morgen / Tag;Spruch;Lehrbuch 1
+καλησπέρα;guten Tag / Abend;Spruch;Lehrbuch 1
+γεια σου / σας;Hallo;Spruch;Lehrbuch 1
+Χαίρετε;Guten Tag (formell);Spruch;Lehrbuch 1
 πώς πάει;wie läuft's?;Spruch;Lehrbuch 1
+τι κάνεις;wie geht es dir?;Spruch;Lehrbuch 1
+τι κάνετε;wie geht es euch?;Spruch;Lehrbuch 1
+"πολύ καλά. Εσύ;";Sehr gut. Und dir?;Spruch;Lehrbuch 1
+μια χαρά;blendend, sehr gut;Spruch;Lehrbuch 1
+Είμαι / Είμαστε καλά;Mir / uns geht es gut;Spruch;Lehrbuch 1
+Έτσι κι έτσι;Es geht;Spruch;Lehrbuch 1
+Χάλια;Sehr schlecht;Spruch;Lehrbuch 1
 τι ωραία;wie schön;Spruch;Lehrbuch 1
-τι κπίμα;wie schade;Spruch;Lehrbuch 1
+τι κρίμα;wie schade;Spruch;Lehrbuch 1
 δεν είμαι καλά;es geht mir nicht gut;Spruch;Lehrbuch 1
-τι κάνετε;Wie geht es euch?;Spruch;Lehrbuch 1
+Πώς σε?;wie heisst du?;Spruch;Lehrbuch 1
+Χαίρω πολύ;freut mich (dich kennenzulernen);Spruch;Lehrbuch 1
 με λένε;ich heisse;Spruch;Lehrbuch 1
-τι κάνεις;wie geht's?;Spruch;Lehrbuch 1
+γεια σου / σας, Αντίο;Tschüss / Auf Wiedersehen;Spruch;Lehrbuch 1
+Καλό μεσημέρι;Schönen Mittag;Spruch;Lehrbuch 1
+Καλό απόγευμα;Schönen Nachmittag;Spruch;Lehrbuch 1
+Καλό βράδυ;Schönen Abend;Spruch;Lehrbuch 1
+μηδέν;0;Zahlen;Lehrbuch 1
+ένα;1;Zahlen;Lehrbuch 1
+δύο;2;Zahlen;Lehrbuch 1
+τρία;3;Zahlen;Lehrbuch 1
+τέσσερα;4;Zahlen;Lehrbuch 1
+πέντε;5;Zahlen;Lehrbuch 1
+έξι;6;Zahlen;Lehrbuch 1
+εφτά / επτά;7;Zahlen;Lehrbuch 1
+οκτώ οχτώ;8;Zahlen;Lehrbuch 1
+εννιά εννέα;9;Zahlen;Lehrbuch 1
+δέκα;10;Zahlen;Lehrbuch 1
+έντεκα ένδεκα;11;Zahlen;Lehrbuch 1
+δώδεκα;12;Zahlen;Lehrbuch 1
+δεκατρία;13;Zahlen;Lehrbuch 1
+δεκατέσσερα;14;Zahlen;Lehrbuch 1
+δεκαπέντε;15;Zahlen;Lehrbuch 1
+δεκαέξι δεκάξι;16;Zahlen;Lehrbuch 1
+δεκαεφτά δεκαεπτά;17;Zahlen;Lehrbuch 1
+δεκαοκτώ δεκαοχτώ;18;Zahlen;Lehrbuch 1
+δεκαεννιά δεκαεννέα;19;Zahlen;Lehrbuch 1
+είκοσι;20;Zahlen;Lehrbuch 2
 στέλνω;schicken, senden;Verb;Lehrbuch 1
 είμαι;sein;Verb;Lehrbuch 1
 παίζω;spielen;Verb;Lehrbuch 1
