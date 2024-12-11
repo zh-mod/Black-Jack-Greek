@@ -473,21 +473,44 @@ def greek():
     return render_template("greek.html", chapters=chapters)
 
 
+@app.route("/add_unknown/<german>/<greek>/<chapter>")
+def add_unknown(german, greek, chapter):
+    if session["unknown"] is None:
+        session["unknown"] = []
+    session["unknown"].append({german: greek})
+    session.modified = True
+    return redirect(url_for('quiz_write_greek', chapter=chapter))
+
+
+@app.route("/continue_unknown")
+def continue_unknown():
+    session["vocabulary"] = session["unknown"]
+    session["unknown"] = None
+    session.modified = True
+    return redirect(url_for('quiz_write_greek', chapter="a"))
+
+
 @app.route("/quiz_write_greek/<chapter>")
 def quiz_write_greek(chapter):
     if session["vocabulary"] is None:
+        session["unknown"] = None
         chosen_quiz = read_data(chapter)
         random.shuffle(chosen_quiz)
         session["vocabulary"] = chosen_quiz
+        session.modified = True
     print(len(session["vocabulary"]))
-    current_word = session["vocabulary"].pop()
-    session.modified = True
+    words_left = len(session["vocabulary"])
+    try:
+        current_word = session["vocabulary"].pop()
+        session.modified = True
+    except IndexError:
+        return redirect(url_for('greek'))
     print(len(session["vocabulary"]))
     for key, value in current_word.items():
         german = key
         greek = value
-    return render_template("quiz.html", german=german, greek=greek)
+    return render_template("quiz.html", german=german, greek=greek, chapter=chapter, words_left=words_left)
 
 
 if __name__ == '__main__':
-    app.run(debug=False)
+    app.run(debug=True)

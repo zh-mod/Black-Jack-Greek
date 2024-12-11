@@ -6,6 +6,17 @@
 
     <div class="container">
         <div class="row">
+            {% if session["unknown"] %}
+                <div class="col-lx-2 col-md-4">
+                    <div class="card bg-primary m-5">
+                        <a href="{{ url_for('continue_unknown') }}" style="text-decoration: none; color: white">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Unbekannte</h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            {% endif %}
             {% for chapter in chapters %}
                 <div class="col-lx-2 col-md-4">
                     <div class="card bg-dark m-5">

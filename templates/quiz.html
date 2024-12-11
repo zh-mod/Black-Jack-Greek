@@ -4,10 +4,12 @@
 
 {% block content %}
 
-<link
 
     <div class="container">
         <div class="row">
+            <div class="col-12">
+                <h2>Noch {{ words_left }}</h2>
+            </div>
             <div class="col-12">
                 <div class="card m-5">
                     <div class="card-body bg-dark">
@@ -21,6 +23,11 @@
                         <h5 class="card-title text-center">{{ greek }}</h5>
                     </div>
                 </div>
+            </div>
+            <div class="col-6">
+                <a href="{{ url_for('add_unknown', german=german, greek=greek, chapter=chapter) }}">
+                    <div class="btn btn-primary m-5">Nicht gewusst</div>
+                </a>
             </div>
 		</div>
 	</div>
