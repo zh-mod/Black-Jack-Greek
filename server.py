@@ -9,7 +9,6 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
 # Bootstrap5(app)
 
-deck = ['♥A', '♣A', '♥2', '♣2', '♥3', '♣3', '♥4', '♣4', '♥5', '♣5', '♥6', '♣6', '♥7', '♣7', '♥8', '♣8', '♥9', '♣9', '♥10', '♣10', '♥J', '♣J', '♥Q', '♣Q', '♥K', '♣K']
 card_list = {
     '♠A': (1, 11),
     '♥A': (1, 11),
@@ -64,7 +63,6 @@ card_list = {
     '♦K': (13, 10),
     '♣K': (13, 10),
 }
-
 
 def bj_assess_hand(hand):
     value = 0
@@ -441,8 +439,8 @@ def blackjack():
     while bj_assess_hand(player_hand) == 21:
         player_hand = []
         for i in range(2):
-            player_hand.append(random.choice(deck))
-    dealer_hand.append(random.choice(deck))
+            player_hand.append(random.choice(list(card_list)))
+    dealer_hand.append(random.choice(list(card_list)))
     ideal_strategy = bj_choose_action_ai(player_hand, dealer_hand)
     return render_template("index.html", player_hand=player_hand, dealer_hand=dealer_hand, ideal_strategy=ideal_strategy)
 
