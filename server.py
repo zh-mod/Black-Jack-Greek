@@ -485,6 +485,7 @@ def add_unknown(german, greek, chapter):
 @app.route("/continue_unknown")
 def continue_unknown():
     session["vocabulary"] = session["unknown"]
+    random.shuffle(session["vocabulary"])
     session["unknown"] = None
     session.modified = True
     return redirect(url_for('quiz_write_greek', chapter="a"))
