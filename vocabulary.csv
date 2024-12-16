@@ -23,7 +23,7 @@
 η Θεσσαλονίκη;Thessaloniki;Nomen;Lehrbuch 1
 και;und, auch;Partikel;Lehrbuch 1
 όμως, αλλά;aber (2 W);Partikel;Lehrbuch 1
-ακόμη / ακόμα;noch;Partikel;Lehrbuch 1
+ακόμη | ακόμα;noch;Partikel;Lehrbuch 1
 δε;nicht, kein;Partikel;Lehrbuch 1
 τίποτα & τίποτε;nichts;Partikel;Lehrbuch 1
 άλλο;mehr;Partikel;Lehrbuch 1
@@ -59,7 +59,7 @@
 τα;das (pl);Pronomen;Lehrbuch 1
 Καλημέρα;guten Morgen | Tag;Spruch;Lehrbuch 1
 καλησπέρα;guten Tag | Abend;Spruch;Lehrbuch 1
-γεια σου / σας;Hallo;Spruch;Lehrbuch 1
+γεια σου | σας;Hallo;Spruch;Lehrbuch 1
 Χαίρετε;Guten Tag (formell);Spruch;Lehrbuch 1
 πώς πάει;wie läuft's?;Spruch;Lehrbuch 1
 τι κάνεις;wie geht es dir?;Spruch;Lehrbuch 1
@@ -86,19 +86,19 @@
 τέσσερα;4;Zahlen;Lehrbuch 1
 πέντε;5;Zahlen;Lehrbuch 1
 έξι;6;Zahlen;Lehrbuch 1
-εφτά / επτά;7;Zahlen;Lehrbuch 1
+εφτά | επτά;7;Zahlen;Lehrbuch 1
 οκτώ οχτώ;8;Zahlen;Lehrbuch 1
 εννιά εννέα;9;Zahlen;Lehrbuch 1
 δέκα;10;Zahlen;Lehrbuch 1
-έντεκα ένδεκα;11;Zahlen;Lehrbuch 1
+έντεκα | ένδεκα;11;Zahlen;Lehrbuch 1
 δώδεκα;12;Zahlen;Lehrbuch 1
 δεκατρία;13;Zahlen;Lehrbuch 1
 δεκατέσσερα;14;Zahlen;Lehrbuch 1
 δεκαπέντε;15;Zahlen;Lehrbuch 1
-δεκαέξι δεκάξι;16;Zahlen;Lehrbuch 1
-δεκαεφτά δεκαεπτά;17;Zahlen;Lehrbuch 1
-δεκαοκτώ δεκαοχτώ;18;Zahlen;Lehrbuch 1
-δεκαεννιά δεκαεννέα;19;Zahlen;Lehrbuch 1
+δεκαέξι | δεκάξι;16;Zahlen;Lehrbuch 1
+δεκαεφτά | δεκαεπτά;17;Zahlen;Lehrbuch 1
+δεκαοκτώ | δεκαοχτώ;18;Zahlen;Lehrbuch 1
+δεκαεννιά | δεκαεννέα;19;Zahlen;Lehrbuch 1
 είκοσι;20;Zahlen;Lehrbuch 1
 στέλνω;schicken, senden;Verb;Lehrbuch 1
 είμαι;sein;Verb;Lehrbuch 1
@@ -119,3 +119,110 @@
 σπουδάζω;studieren;Verb;Lehrbuch 1
 μαθαίνω;lernen;Verb;Lehrbuch 1
 ελπίζω;hoffen;Verb;Lehrbuch 1
+ο πινακας ανακοινώσεων;das schwarze Brett;Nomen;Lehrbuch 2
+η κοπέλα;die junge Frau;Nomen;Lehrbuch 2
+η κατεπίνη;Katerini (Stadt);Nomen;Lehrbuch 2
+η ιατρική;die Medizin;Nomen;Lehrbuch 2
+το διαμέρισμα;das Appartement;Nomen;Lehrbuch 2
+στον | στι;in, auf, an, bei, nach, zu;Partikel;Lehrbuch 2
+τηλ.;Tel.;Nomen;Lehrbuch 2
+το τηλέφωνο;das Telefon;Nomen;Lehrbuch 2
+έχω;haben;Verb;Lehrbuch 2
+τα έπιπλα;das Möbel;Nomen;Lehrbuch 2
+ποιος;wer;Pronomen;Lehrbuch 2
+πουλάω;verkaufen;Verb;Lehrbuch 2
+ή;oder;Partikel;Lehrbuch 2
+χαρίζω;(ver)schenken;Verb;Lehrbuch 2
+η καρέκλα;der Stuhl;Nomen;Lehrbuch 2
+το τραπέζι;der Tisch;Nomen;Lehrbuch 2
+το κρεβάτι;das Bett;Nomen;Lehrbuch 2
+το κινητό;die Handynummer;Nomen;Lehrbuch 2
+μου;mein;Pronomen;Lehrbuch 2
+μετακομίζω;umziehen;Verb;Lehrbuch 2
+ο δισκος;die Schallplatte;Nomen;Lehrbuch 2
+το σιντί;die CD;Nomen;Lehrbuch 2
+άλλα;andere;Partikel;Lehrbuch 2
+το πράγμα;die Sache, das Ding;Nomen;Lehrbuch 2
+ο δικηγόρος;der Rechtsanwalt;Nomen;Lehrbuch 2
+...χρονών;… Jahre alt;Spruch;Lehrbuch 2
+ο | η συγκάτοικος;der | die Mitbewohner;Nomen;Lehrbuch 2
+ προτιμάω;bevorzugen;Verb;Lehrbuch 2
+η φοιτήτρια;die Studentin;Nomen;Lehrbuch 2
+γιατί;warum, weil;Pronomen;Lehrbuch 2
+γελάω;lachen;Verb;Lehrbuch 2
+κάνω πλάκα;Spass machen;Verb;Lehrbuch 2
+ο | η υπάλληλος;der Angestellte;Nomen;Lehrbuch 2
+η τράπεζα;die Bank;Nomen;Lehrbuch 2
+η γυναίκα;die Frau, Ehefrau;Nomen;Lehrbuch 2
+ο | η γραμματέας;der | die Sekretär;Nomen;Lehrbuch 2
+ζητάω;suchen nach, verlangen;Verb;Lehrbuch 2
+η μπέιμπι σίτερ;die Babysitterin;Nomen;Lehrbuch 2
+για;für;Partikel;Lehrbuch 2
+η κόρη;die Tochter;Nomen;Lehrbuch 2
+μας;unser;Pronomen;Lehrbuch 2
+η Ισπανίδα;die Spanierin;Nomen;Lehrbuch 2
+η βοήθεια;die Hilfe;Nomen;Lehrbuch 2
+τα λεφτά;das Geld;Nomen;Lehrbuch 2
+η δουλειά;die Arbeit;Nomen;Lehrbuch 2
+η Μαδρίτη;Madrid;Nomen;Lehrbuch 2
+μιλάω;sprechen, reden;Verb;Lehrbuch 2
+τα αγγλικά;Englisch;Nomen;Lehrbuch 2
+φυσικά;natürlich;Adjektiv ;Lehrbuch 2
+τα Ισπανικά;Spanisch;Nomen;Lehrbuch 2
+αγαπάω;lieben, mögen;Verb;Lehrbuch 2
+η γλώσσα;die Sprache;Nomen;Lehrbuch 2
+οι ξένες γλώσσες;die Fremdsprache;Nomen;Lehrbuch 2
+αν;wenn, falls, ob;Partikel;Lehrbuch 2
+η δασκάλα;die Lehrerin;Nomen;Lehrbuch 2
+κάνω παζάρια;feilschen, handeln;Verb;Lehrbuch 2
+η αγγελία;die Anzeige;Nomen;Lehrbuch 2
+παίρνω τηλέφωνο;anrufen;Verb;Lehrbuch 2
+ο κύριος;Herr;Nomen;Lehrbuch 2
+παρακαλώ;bitte;Partikel;Lehrbuch 2
+τηλεφωνώ;telefonieren;Verb;Lehrbuch 2
+επειδή;weil, da;Partikel;Lehrbuch 2
+μάλιστα;richtig, jawohl;Adjektiv ;Lehrbuch 2
+ο ξένος;der Ausländer;Nomen;Lehrbuch 2
+μπράβο;bravo;Partikel;Lehrbuch 2
+δουλεύω;arbeiten;Verb;Lehrbuch 2
+η Ελλάδα;Griechenland;Nomen;Lehrbuch 2
+ζω;leben;Verb;Lehrbuch 2
+χωρίς;ohne;Partikel;Lehrbuch 2
+πού;wo;Partikel;Lehrbuch 2
+τρώω;essen;Verb;Lehrbuch 2
+το πάτωμα;der Fussboden;Nomen;Lehrbuch 2
+μένω;wohnen;Verb;Lehrbuch 2
+η φίλη;die Freundin;Nomen;Lehrbuch 2
+αύπιο;morgen;Partikel;Lehrbuch 2
+από αύπιο;ab morgen;Partikel;Lehrbuch 2
+συγνώμη;Verzeihung;Spruch;Lehrbuch 2
+η Ελληνίδα;die Griechin;Nomen;Lehrbuch 2
+η Γερμανίδα;die Deutsche;Nomen;Lehrbuch 2
+τη λένε;sie heisst;Spruch;Lehrbuch 2
+η καθηγήτρια;die Gymnasiallehrerin;Nomen;Lehrbuch 2
+τα γαλλικά;Französisch;Nomen;Lehrbuch 2
+τα ιταλικά;Italienisch;Nomen;Lehrbuch 2
+η λάμπα;die Lampe;Nomen;Lehrbuch 2
+η κατσαρόλα;der Kochtopf;Nomen;Lehrbuch 2
+η σκούπα;der Besen | der Staubsauger;Nomen;Lehrbuch 2
+θέλω;wollen, mögen;Verb;Lehrbuch 2
+εντάξει;in Ordnung;Spruch;Lehrbuch 2
+φεύγω;verlassen, weggehen;Verb;Lehrbuch 2
+η Δευτέρα;Montag;Nomen;Lehrbuch 2
+τι να κάνω;was soll ich machen;Spruch;Lehrbuch 2
+το πιάτο;der Teller;Nomen;Lehrbuch 2
+το κουτάλι;der Löffel;Nomen;Lehrbuch 2
+το πιρούνι;die Gabel;Nomen;Lehrbuch 2
+το μαχαίρι;das Messer;Nomen;Lehrbuch 2
+ο φούρνος;der Backofen;Nomen;Lehrbuch 2
+ούτε ... oύτε;weder … noch;Spruch;Lehrbuch 2
+πενήντα;fünfzig;Zahlen;Lehrbuch 2
+το ευρώ;der Euro;Nomen;Lehrbuch 2
+αγοράζω;kaufen;Verb;Lehrbuch 2
+το νοικοκυριό;der Haushalt;Nomen;Lehrbuch 2
+παίρνω;nehmen;Verb;Lehrbuch 2
+η πόρτα;die Tür;Nomen;Lehrbuch 2
+το παράθυρο;das Fenster;Nomen;Lehrbuch 2
+ο ανεμιστήρας;der Ventilator;Nomen;Lehrbuch 2
+πολύ;sehr;Partikel;Lehrbuch 2
+το απόγευμα;am Nachmittag;Nomen;Lehrbuch 2
