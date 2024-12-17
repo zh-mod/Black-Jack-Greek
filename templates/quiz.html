@@ -29,6 +29,11 @@
                     <div class="btn btn-primary m-5">Nicht gewusst</div>
                 </a>
             </div>
+            <div class="col-6">
+                <a href="{{ url_for('continue_unknown') }}">
+                    <div class="btn btn-primary m-5">{{ count_unknown }}</div>
+                </a>
+            </div>
 		</div>
 	</div>
 
