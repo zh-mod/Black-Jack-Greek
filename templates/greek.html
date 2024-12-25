@@ -6,6 +6,15 @@
 
     <div class="container">
         <div class="row">
+            <div class="col-lx-2 col-md-4">
+                <div class="card bg-danger m-5">
+                    <a href="{{ url_for('continue_focus') }}" style="text-decoration: none; color: white">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Fokus</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
             {% if session["unknown"] %}
                 <div class="col-lx-2 col-md-4">
                     <div class="card bg-primary m-5">

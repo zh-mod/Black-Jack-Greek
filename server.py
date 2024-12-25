@@ -64,6 +64,7 @@ card_list = {
     '♣K': (13, 10),
 }
 
+
 def bj_assess_hand(hand):
     value = 0
     for card in hand:
@@ -462,6 +463,29 @@ def read_data(category=False):
         else:
             categories = list(vocabulary)
             return categories
+
+
+@app.route("/save_current_rotationter>")
+def save_current_rotation():
+    with open("focus.csv", mode="w", newline="", encoding="utf-8-sig") as file:
+        writer = csv.writer(file, delimiter=";")
+        for word in session["vocabulary"]:
+            entry = (list(word.values()) + list(word.keys()) + ["Fokus Training"] + ["Fokus Training"])
+            writer.writerow(entry)
+        return redirect(url_for('greek'))
+
+
+@app.route("/continue_focus")
+def continue_focus():
+    with open("focus.csv", encoding="utf-8") as file:
+        data = csv.reader(file, delimiter=";")
+        vocabulary = []
+        for row in data:
+            vocabulary.append({row[1]: row[0]})
+        session["vocabulary"] = vocabulary
+        session.modified = True
+        print(vocabulary)
+    return redirect(url_for('quiz_write_greek', chapter="a"))
 
 
 @app.route("/lerne_griechisch")
