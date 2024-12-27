@@ -8,10 +8,9 @@ import json
 import random
 import csv
 import os
-
+'''2'''
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.environ.get("FLASK_KEY")
-
 
 # Bootstrap5(app)
 
