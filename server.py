@@ -1,13 +1,41 @@
 from flask import Flask, render_template, redirect, url_for, request, flash, session, jsonify
+from flask_sqlalchemy import SQLAlchemy
+from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column, relationship
+from sqlalchemy import Integer, String, Float, Boolean, Text, ForeignKey, func
 # import gunicorn
 # import psycopg
 import json
 import random
 import csv
+import os
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
+app.config['SECRET_KEY'] = os.environ.get("FLASK_KEY")
+
+
 # Bootstrap5(app)
+
+class Base(DeclarativeBase):
+    pass
+
+
+app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get("DB_URI", 'sqlite:///voci.db')
+db = SQLAlchemy(model_class=Base)
+db.init_app(app)
+
+
+class Voci(db.Model):
+    __tablename__ = "voci"
+    id: Mapped[int] = mapped_column(Integer, primary_key=True)
+    greek: Mapped[str] = mapped_column(String(100))
+    german: Mapped[str] = mapped_column(String(100))
+    type: Mapped[str] = mapped_column(String(100))
+    chapter: Mapped[str] = mapped_column(String(100))
+    focus: Mapped[bool] = mapped_column(Boolean, nullable=False)
+
+
+with app.app_context():
+    db.create_all()
 
 card_list = {
     '♠A': (1, 11),
@@ -446,58 +474,63 @@ def blackjack():
     return render_template("index.html", player_hand=player_hand, dealer_hand=dealer_hand, ideal_strategy=ideal_strategy)
 
 
-def read_data(category=False):
+@app.route("/csv_to_sql>")
+def csv_to_sql():
     with open("vocabulary.csv", encoding="utf-8") as file:
         data = csv.reader(file, delimiter=";")
-        next(data)
-        vocabulary = {}
         for row in data:
-            if row[2] not in vocabulary:
-                vocabulary.update({row[2]: []})
-            vocabulary[row[2]].append({row[1]: row[0]})
-            if row[3] not in vocabulary:
-                vocabulary.update({row[3]: []})
-            vocabulary[row[3]].append({row[1]: row[0]})
-        if category:
-            return vocabulary[category]
-        else:
-            categories = list(vocabulary)
-            return categories
-
-
-@app.route("/save_current_rotationter>")
-def save_current_rotation():
-    with open("focus.csv", mode="w", newline="", encoding="utf-8-sig") as file:
-        writer = csv.writer(file, delimiter=";")
-        for word in session["vocabulary"]:
-            entry = (list(word.values()) + list(word.keys()) + ["Fokus Training"] + ["Fokus Training"])
-            writer.writerow(entry)
+            existing_entry = db.session.execute(db.select(Voci).where(Voci.greek == row[0])).scalar()
+            if not existing_entry:
+                new_voci = Voci(
+                    greek=row[0],
+                    german=row[1],
+                    type=row[2],
+                    chapter=row[3],
+                    focus=False)
+                db.session.add(new_voci)
+                db.session.commit()
         return redirect(url_for('greek'))
+
+
+@app.route("/add_focus/<greek_word>")
+def add_focus(greek_word):
+    word = db.session.execute(db.select(Voci).where(Voci.greek == greek_word)).scalar()
+    word.focus = True
+    db.session.commit()
+    return redirect(url_for('quiz_write_greek', chapter="a"))
+
+
+@app.route("/remove_focus/<greek_word>")
+def remove_focus(greek_word):
+    word = db.session.execute(db.select(Voci).where(Voci.greek == greek_word)).scalar()
+    word.focus = False
+    db.session.commit()
+    return redirect(url_for('quiz_write_greek', chapter="a"))
 
 
 @app.route("/continue_focus")
 def continue_focus():
-    with open("focus.csv", encoding="utf-8") as file:
-        data = csv.reader(file, delimiter=";")
-        vocabulary = []
-        for row in data:
-            vocabulary.append({row[1]: row[0]})
-        session["vocabulary"] = vocabulary
-        session.modified = True
-        print(vocabulary)
+    session["unknown"] = []
+    chosen_quiz = [(entry.greek, entry.german, entry.focus) for entry in db.session.execute(db.select(Voci).where(Voci.focus == 1)).scalars()]
+    random.shuffle(chosen_quiz)
+    session["vocabulary"] = chosen_quiz
+    session.modified = True
     return redirect(url_for('quiz_write_greek', chapter="a"))
 
 
 @app.route("/lerne_griechisch")
 def greek():
     session["vocabulary"] = None
-    chapters = read_data()
-    return render_template("greek.html", chapters=chapters)
+    entries = db.session.execute(db.select(Voci)).scalars()
+    types = set([entry.type for entry in entries])
+    entries = db.session.execute(db.select(Voci)).scalars()
+    chapters = set([entry.chapter for entry in entries])
+    return render_template("greek.html", chapters=chapters, types=types)
 
 
-@app.route("/add_unknown/<german>/<greek>/<chapter>")
-def add_unknown(german, greek, chapter):
-    session["unknown"].append({german: greek})
+@app.route("/add_unknown/<german>/<greek>/<focus>/<chapter>")
+def add_unknown(german, greek, focus, chapter):
+    session["unknown"].append((greek, german, focus))
     session.modified = True
     return redirect(url_for('quiz_write_greek', chapter=chapter))
 
@@ -515,11 +548,11 @@ def continue_unknown():
 def quiz_write_greek(chapter):
     if session["vocabulary"] is None:
         session["unknown"] = []
-        chosen_quiz = read_data(chapter)
+        chosen_quiz = [(entry.greek, entry.german, entry.focus) for entry in db.session.execute(db.select(Voci).where(Voci.chapter == chapter)).scalars()]
+        print(chosen_quiz)
         random.shuffle(chosen_quiz)
         session["vocabulary"] = chosen_quiz
         session.modified = True
-    print(len(session["vocabulary"]))
     words_left = len(session["vocabulary"])
     count_unknown = len(session["unknown"])
     try:
@@ -527,11 +560,7 @@ def quiz_write_greek(chapter):
         session.modified = True
     except IndexError:
         return redirect(url_for('greek'))
-    print(len(session["vocabulary"]))
-    for key, value in current_word.items():
-        german = key
-        greek = value
-    return render_template("quiz.html", german=german, greek=greek, chapter=chapter, words_left=words_left, count_unknown=count_unknown)
+    return render_template("quiz.html", german=current_word[1], greek=current_word[0], focus=current_word[2], chapter=chapter, words_left=words_left, count_unknown=count_unknown)
 
 
 if __name__ == '__main__':

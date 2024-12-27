@@ -24,8 +24,13 @@
                     </div>
                 </div>
             </div>
+            <div class="col-12">
+                <a href="{{ url_for('quiz_write_greek', chapter=chapter) }}">
+                    <div class="btn btn-success m-5">Gewusst</div>
+                </a>
+            </div>
             <div class="col-6">
-                <a href="{{ url_for('add_unknown', german=german, greek=greek, chapter=chapter) }}">
+                <a href="{{ url_for('add_unknown', german=german, greek=greek, focus=focus, chapter=chapter) }}">
                     <div class="btn btn-primary m-5">Nicht gewusst</div>
                 </a>
             </div>
@@ -34,11 +39,19 @@
                     <div class="btn btn-primary m-5">{{ count_unknown }}</div>
                 </a>
             </div>
+            {% if focus == 0 %}
             <div class="col-12">
-                <a href="{{ url_for('save_current_rotation') }}">
-                    <div class="btn btn-danger m-5">Momentane Rotation speichern</div>
+                <a href="{{ url_for('add_focus', greek_word = greek) }}">
+                    <div class="btn btn-danger m-5">Zu Fokus hinzufügen</div>
                 </a>
             </div>
+            {% elif focus == 1 %}
+            <div class="col-12">
+                <a href="{{ url_for('remove_focus', greek_word = greek) }}">
+                    <div class="btn btn-danger m-5">Aus Fokus entfernen</div>
+                </a>
+            </div>
+            {% endif %}
 		</div>
 	</div>
 
