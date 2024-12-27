@@ -2,13 +2,12 @@ from flask import Flask, render_template, redirect, url_for, request, flash, ses
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column, relationship
 from sqlalchemy import Integer, String, Float, Boolean, Text, ForeignKey, func
-# import gunicorn
-# import psycopg
-import json
+import gunicorn
+import psycopg
 import random
 import csv
 import os
-'''2'''
+
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.environ.get("FLASK_KEY")
 
