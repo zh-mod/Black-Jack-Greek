@@ -510,7 +510,7 @@ def remove_focus(greek_word):
 @app.route("/continue_focus")
 def continue_focus():
     session["unknown"] = []
-    chosen_quiz = [(entry.greek, entry.german, entry.focus) for entry in db.session.execute(db.select(Voci).where(Voci.focus == 1)).scalars()]
+    chosen_quiz = [(entry.greek, entry.german, entry.focus) for entry in db.session.execute(db.select(Voci).where(Voci.focus == bool(True))).scalars()]
     random.shuffle(chosen_quiz)
     session["vocabulary"] = chosen_quiz
     session.modified = True
