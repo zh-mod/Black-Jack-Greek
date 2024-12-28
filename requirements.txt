@@ -1,5 +1,6 @@
 gunicorn~=23.0.0
 psycopg~=3.2.3
+psycopg2~=2.9.10
 Flask~=3.1.0
 SQLAlchemy~=2.0.36
 Flask-SQLAlchemy~=3.1.1

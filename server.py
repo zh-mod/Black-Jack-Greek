@@ -3,7 +3,7 @@ from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column, relationship
 from sqlalchemy import Integer, String, Float, Boolean, Text, ForeignKey, func
 import gunicorn
-import psycopg
+import psycopg2
 import random
 import csv
 import os
