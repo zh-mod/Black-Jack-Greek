@@ -25,12 +25,12 @@
                 </div>
             </div>
             <div class="col-12">
-                <a href="{{ url_for('quiz_write_greek', chapter=chapter) }}">
+                <a href="{{ url_for('quiz_write_greek', chapter=chapter, type=type) }}">
                     <div class="btn btn-success m-5">Gewusst</div>
                 </a>
             </div>
             <div class="col-6">
-                <a href="{{ url_for('add_unknown', german=german, greek=greek, focus=focus, chapter=chapter) }}">
+                <a href="{{ url_for('add_unknown', german=german, greek=greek, focus=focus, chapter=chapter, type=type) }}">
                     <div class="btn btn-primary m-5">Nicht gewusst</div>
                 </a>
             </div>

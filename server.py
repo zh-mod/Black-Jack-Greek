@@ -11,6 +11,7 @@ import os
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.environ.get("FLASK_KEY")
 
+
 # Bootstrap5(app)
 
 class Base(DeclarativeBase):
@@ -495,7 +496,7 @@ def add_focus(greek_word):
     word = db.session.execute(db.select(Voci).where(Voci.greek == greek_word)).scalar()
     word.focus = True
     db.session.commit()
-    return redirect(url_for('quiz_write_greek', chapter="a"))
+    return redirect(url_for('quiz_write_greek', chapter="a", type="a"))
 
 
 @app.route("/remove_focus/<greek_word>")
@@ -503,7 +504,7 @@ def remove_focus(greek_word):
     word = db.session.execute(db.select(Voci).where(Voci.greek == greek_word)).scalar()
     word.focus = False
     db.session.commit()
-    return redirect(url_for('quiz_write_greek', chapter="a"))
+    return redirect(url_for('quiz_write_greek', chapter="a", type="a"))
 
 
 @app.route("/continue_focus")
@@ -513,7 +514,7 @@ def continue_focus():
     random.shuffle(chosen_quiz)
     session["vocabulary"] = chosen_quiz
     session.modified = True
-    return redirect(url_for('quiz_write_greek', chapter="a"))
+    return redirect(url_for('quiz_write_greek', chapter="a", type="a"))
 
 
 @app.route("/lerne_griechisch")
@@ -526,11 +527,11 @@ def greek():
     return render_template("greek.html", chapters=chapters, types=types)
 
 
-@app.route("/add_unknown/<german>/<greek>/<focus>/<chapter>")
-def add_unknown(german, greek, focus, chapter):
+@app.route("/add_unknown/<german>/<greek>/<focus>/<chapter>/<type>")
+def add_unknown(german, greek, focus, chapter, type):
     session["unknown"].append((greek, german, focus))
     session.modified = True
-    return redirect(url_for('quiz_write_greek', chapter=chapter))
+    return redirect(url_for('quiz_write_greek', chapter=chapter, type=type))
 
 
 @app.route("/continue_unknown")
@@ -539,14 +540,17 @@ def continue_unknown():
     random.shuffle(session["vocabulary"])
     session["unknown"] = []
     session.modified = True
-    return redirect(url_for('quiz_write_greek', chapter="a"))
+    return redirect(url_for('quiz_write_greek', chapter="a", type="a"))
 
 
-@app.route("/quiz_write_greek/<chapter>")
-def quiz_write_greek(chapter):
+@app.route("/quiz_write_greek/<chapter>/<type>")
+def quiz_write_greek(chapter, type):
     if session["vocabulary"] is None:
         session["unknown"] = []
-        chosen_quiz = [(entry.greek, entry.german, entry.focus) for entry in db.session.execute(db.select(Voci).where(Voci.chapter == chapter)).scalars()]
+        if type == 0:
+            chosen_quiz = [(entry.greek, entry.german, entry.focus) for entry in db.session.execute(db.select(Voci).where(Voci.chapter == chapter)).scalars()]
+        else:
+            chosen_quiz = [(entry.greek, entry.german, entry.focus) for entry in db.session.execute(db.select(Voci).where(Voci.type == type)).scalars()]
         print(chosen_quiz)
         random.shuffle(chosen_quiz)
         session["vocabulary"] = chosen_quiz
@@ -558,7 +562,7 @@ def quiz_write_greek(chapter):
         session.modified = True
     except IndexError:
         return redirect(url_for('greek'))
-    return render_template("quiz.html", german=current_word[1], greek=current_word[0], focus=current_word[2], chapter=chapter, words_left=words_left, count_unknown=count_unknown)
+    return render_template("quiz.html", german=current_word[1], greek=current_word[0], focus=current_word[2], chapter=chapter, type=type, words_left=words_left, count_unknown=count_unknown)
 
 
 if __name__ == '__main__':
