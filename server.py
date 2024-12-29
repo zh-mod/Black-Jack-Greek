@@ -547,7 +547,7 @@ def continue_unknown():
 def quiz_write_greek(chapter, type):
     if session["vocabulary"] is None:
         session["unknown"] = []
-        if type == 0:
+        if type == str(0):
             chosen_quiz = [(entry.greek, entry.german, entry.focus) for entry in db.session.execute(db.select(Voci).where(Voci.chapter == chapter)).scalars()]
         else:
             chosen_quiz = [(entry.greek, entry.german, entry.focus) for entry in db.session.execute(db.select(Voci).where(Voci.type == type)).scalars()]
