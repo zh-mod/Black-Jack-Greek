@@ -562,6 +562,7 @@ def quiz_write_greek(chapter, type):
         session.modified = True
     except IndexError:
         return redirect(url_for('greek'))
+    print(current_word)
     return render_template("quiz.html", german=current_word[1], greek=current_word[0], focus=current_word[2], chapter=chapter, type=type, words_left=words_left, count_unknown=count_unknown)
 
 

@@ -39,13 +39,13 @@
                     <div class="btn btn-primary m-5">{{ count_unknown }}</div>
                 </a>
             </div>
-            {% if focus == 0 %}
+            {% if focus == 0 or focus == "False" %}
             <div class="col-12">
                 <a href="{{ url_for('add_focus', greek_word = greek) }}">
                     <div class="btn btn-danger m-5">Zu Fokus hinzufügen</div>
                 </a>
             </div>
-            {% elif focus == 1 %}
+            {% elif focus == 1 or focus == "True" %}
             <div class="col-12">
                 <a href="{{ url_for('remove_focus', greek_word = greek) }}">
                     <div class="btn btn-danger m-5">Aus Fokus entfernen</div>
