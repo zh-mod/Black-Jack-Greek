@@ -393,78 +393,88 @@ o | η γιατρός;der Arzt;Nomen;Lehrbuch 2
 Τι ώρα αρχίζει ο χορός;Um wie viel Uhr beginnt der Tanz?;Zeitangaben;Lehrbuch 3
 Στις τρεις;Um drei Uhr;Zeitangaben;Lehrbuch 3
 δεκατρείς και είκοσι;dreizehn Uhr zwanzig;Zeitangaben;Lehrbuch 3
-το δέντρο;der Baum;Nomen;
-το γενεαλογικό δέντρο;der Stammbaum;Nomen;
-ο παππούς;der Grossvater;Nomen;
-η γιαγιά;die Grossmutter;Nomen;
-η μητέρα;die Mutter;Nomen;
-ο πατέρας;der Vater;Nomen;
-η νύφη;die Schwägerin;Nomen;
-ο αδελφός;der Bruder;Nomen;
-η αδελφή;die Schwester;Nomen;
-ο γαμπρός;der Schwager;Nomen;
-η γαμπρή;die Schwägerin;Nomen;
-ο γιος;der Sohn;Nomen;
-πόσος, -η, -ο;wie viele;Adjektiv;
-το κλαδί;der Ast, Zweig;Nomen;
-δικός, -ιά, -ή, -ό;mein;Pronomen;
-το κορίτσι;das Mädchen;Nomen;
-εκεί;da, dort;Partikel;
-η οικογένεια;die Familie;Nomen;
-το άλμπουμ;das Album;Nomen;
-ποιος, -α, -ο;wer;Pronomen;
-πρώτος, -η, -ο;erster;Adjektiv;
-η σελίδα;die Seite;Nomen;
-ίδιος, -η, -ο;gleich (wie);Adjektiv;
-το όνομα;der Name;Nomen;
-παλιός, -ή, -ό;alt;Adjektiv;
-ασπρόμαυρος, -η, -ο;schwarzweiss;Adjektiv;
-έγχρωμος, -η, -ο;farbig;Adjektiv;
-οικογενειακός, -ή, -ό;Familien-;Adjektiv;
-ο γάμος;die Hochzeit;Nomen;
-τα εγγόνια;die Enkel;Nomen;
-πόπο;Oh;Partikel;
-η θεία;die Tante;Nomen;
-ο θείος;der Onkel;Nomen;
-από τρία;ab drei (Anzahl);Spruch;
-παντρεμένος, -η, -ο;verheiratet;Adjektiv;
-άρα;also;Partikel;
-τα ξαδέλφια;die Cousins & Cousinen;Nomen;
-σημαίνω;bedeuten;Verb;
-ότι;dass;Partikel;
-η ξαδέλφη;die Cousine;Nomen;
-ο ξάδελφος;der Cousin;Nomen;
-υπάρχει;es gibt;Verb;
-τα αδέλφια;die Geschwister;Nomen;
-το γούστο;der Geschmack;Nomen;
-η σχέση;die Beziehung;Nomen;
-έχω σχέση με;etw. zu tun haben mit;Spruch;
-συνήθως;gewöhnlich;Partikel;
-το μπέρδεμα;das Durcheinander;Nomen;
-η ανιψιά;die Nichte;Nomen;
-η μαμά;die Mama;Nomen;
-ο μπαμπάς;der Papa;Nomen;
-επίσης;ebenfalls;Partikel;
-εύκολος, -η, -ο | απλός, -ή, -ό;einfach;Adjektiv;
-διπλός, -ή, -ό;doppelt;Adjektiv;
-τριπλός, -ή, -ό;dreifach;Adjektiv;
-μοναδικός, -ή, -ό;einzigartig;Adjektiv;
-μόνος, -η, -ο;einzig;Adjektiv;
-κι;und, auch;Partikel;
-δίνω;geben;Verb;
-η αλήθεια;die Wahrheit;Nomen;
-αυτό ειναι αλήθεια;das stimmt;Spruch;
-το μοναχοπαίδι;das Einzelkind;Nomen;
-η μοναχοκόρη;das Einzelkind (f);Nomen;
-ο μοναχογιός;das Einzelkind (m);Nomen;
-πότε;wann;Partikel;
-οι συγγενείς;die Verwanten;Nomen;
-οι γονείς;die Eltern;Nomen;
-τα παιδιά;die Kinder;Nomen;
-τα ανίψια;die Neffen und Nichten;Nomen;
-τα πεθερικά;die Schwiegereltern;Nomen;
-το ζευγάρι;das Paar;Nomen;
-οι σύζυγοι;das Ehepaar;Nomen;
-ο αρραβώνας;die Verlobung;Nomen;
-ο χωρισμός;die Trennung;Nomen;
-το διαζύγιο;die Schweidung;Nomen;
+το δέντρο;der Baum;Nomen;Lehrbuch 4
+το γενεαλογικό δέντρο;der Stammbaum;Nomen;Lehrbuch 4
+ο παππούς;der Grossvater;Nomen;Lehrbuch 4
+η γιαγιά;die Grossmutter;Nomen;Lehrbuch 4
+η μητέρα;die Mutter;Nomen;Lehrbuch 4
+ο πατέρας;der Vater;Nomen;Lehrbuch 4
+η νύφη;die Schwägerin;Nomen;Lehrbuch 4
+ο αδελφός;der Bruder;Nomen;Lehrbuch 4
+η αδελφή;die Schwester;Nomen;Lehrbuch 4
+ο γαμπρός;der Schwager;Nomen;Lehrbuch 4
+η γαμπρή;die Schwägerin;Nomen;Lehrbuch 4
+ο γιος;der Sohn;Nomen;Lehrbuch 4
+πόσος, -η, -ο;wie viele;Adjektiv;Lehrbuch 4
+το κλαδί;der Ast, Zweig;Nomen;Lehrbuch 4
+δικός, -ιά, -ή, -ό;mein;Pronomen;Lehrbuch 4
+το κορίτσι;das Mädchen;Nomen;Lehrbuch 4
+εκεί;da, dort;Partikel;Lehrbuch 4
+η οικογένεια;die Familie;Nomen;Lehrbuch 4
+το άλμπουμ;das Album;Nomen;Lehrbuch 4
+ποιος, -α, -ο;wer;Pronomen;Lehrbuch 4
+πρώτος, -η, -ο;erster;Adjektiv;Lehrbuch 4
+η σελίδα;die Seite;Nomen;Lehrbuch 4
+ίδιος, -η, -ο;gleich (wie);Adjektiv;Lehrbuch 4
+το όνομα;der Name;Nomen;Lehrbuch 4
+παλιός, -ή, -ό;alt;Adjektiv;Lehrbuch 4
+ασπρόμαυρος, -η, -ο;schwarzweiss;Adjektiv;Lehrbuch 4
+έγχρωμος, -η, -ο;farbig;Adjektiv;Lehrbuch 4
+οικογενειακός, -ή, -ό;Familien-;Adjektiv;Lehrbuch 4
+ο γάμος;die Hochzeit;Nomen;Lehrbuch 4
+τα εγγόνια;die Enkel;Nomen;Lehrbuch 4
+πόπο;Oh;Partikel;Lehrbuch 4
+η θεία;die Tante;Nomen;Lehrbuch 4
+ο θείος;der Onkel;Nomen;Lehrbuch 4
+από τρία;ab drei (Anzahl);Spruch;Lehrbuch 4
+παντρεμένος, -η, -ο;verheiratet;Adjektiv;Lehrbuch 4
+άρα;also;Partikel;Lehrbuch 4
+τα ξαδέλφια;die Cousins & Cousinen;Nomen;Lehrbuch 4
+σημαίνω;bedeuten;Verb;Lehrbuch 4
+ότι;dass;Partikel;Lehrbuch 4
+η ξαδέλφη;die Cousine;Nomen;Lehrbuch 4
+ο ξάδελφος;der Cousin;Nomen;Lehrbuch 4
+υπάρχει;es gibt;Verb;Lehrbuch 4
+τα αδέλφια;die Geschwister;Nomen;Lehrbuch 4
+το γούστο;der Geschmack;Nomen;Lehrbuch 4
+η σχέση;die Beziehung;Nomen;Lehrbuch 4
+έχω σχέση με;etw. zu tun haben mit;Spruch;Lehrbuch 4
+συνήθως;gewöhnlich;Partikel;Lehrbuch 4
+το μπέρδεμα;das Durcheinander;Nomen;Lehrbuch 4
+η ανιψιά;die Nichte;Nomen;Lehrbuch 4
+η μαμά;die Mama;Nomen;Lehrbuch 4
+ο μπαμπάς;der Papa;Nomen;Lehrbuch 4
+επίσης;ebenfalls;Partikel;Lehrbuch 4
+εύκολος, -η, -ο | απλός, -ή, -ό;einfach;Adjektiv;Lehrbuch 4
+διπλός, -ή, -ό;doppelt;Adjektiv;Lehrbuch 4
+τριπλός, -ή, -ό;dreifach;Adjektiv;Lehrbuch 4
+μοναδικός, -ή, -ό;einzigartig;Adjektiv;Lehrbuch 4
+μόνος, -η, -ο;einzig;Adjektiv;Lehrbuch 4
+κι;und, auch;Partikel;Lehrbuch 4
+δίνω;geben;Verb;Lehrbuch 4
+η αλήθεια;die Wahrheit;Nomen;Lehrbuch 4
+αυτό ειναι αλήθεια;das stimmt;Spruch;Lehrbuch 4
+το μοναχοπαίδι;das Einzelkind;Nomen;Lehrbuch 4
+η μοναχοκόρη;das Einzelkind (f);Nomen;Lehrbuch 4
+ο μοναχογιός;das Einzelkind (m);Nomen;Lehrbuch 4
+πότε;wann;Partikel;Lehrbuch 4
+οι συγγενείς;die Verwandten;Nomen;Lehrbuch 4
+οι γονείς;die Eltern;Nomen;Lehrbuch 4
+τα παιδιά;die Kinder;Nomen;Lehrbuch 4
+τα ανίψια;die Neffen und Nichten;Nomen;Lehrbuch 4
+τα πεθερικά;die Schwiegereltern;Nomen;Lehrbuch 4
+το ζευγάρι;das Paar;Nomen;Lehrbuch 4
+οι σύζυγοι;das Ehepaar;Nomen;Lehrbuch 4
+ο αρραβώνας;die Verlobung;Nomen;Lehrbuch 4
+ο χωρισμός;die Trennung;Nomen;Lehrbuch 4
+το διαζύγιο;die Schweidung;Nomen;Lehrbuch 4
+ο άντρας;der Mann;Nomen;Lehrbuch 4
+ο σύζυγος;der Ehemann;Nomen;Lehrbuch 4
+ανύπαντρος, ελεύθερος;ledig;Adjektiv;Lehrbuch 4
+ο αρραβωνιαστικός;der Verlobte;Nomen;Lehrbuch 4
+η αρραβωνιαστικά;die Verlobte;Nomen;Lehrbuch 4
+χωρισμένος;getrennt;Adjektiv;Lehrbuch 4
+διαζευγμένος;geschieden;Adjektiv;Lehrbuch 4
+ο χήρος;der Witwer;Nomen;Lehrbuch 4
+η χήρα;die Witwe;Nomen;Lehrbuch 4
+η σύζυγη;die Ehefrau;Nomen;Lehrbuch 4
