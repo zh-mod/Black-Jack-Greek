@@ -7,8 +7,11 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-12">
+            <div class="col-6">
                 <h2>Noch {{ words_left }}</h2>
+            </div>
+            <div class="col-6">
+                <a href="{{ url_for('remove_from_sql', greek_word = greek) }}" style="text-decoration: none; color: black">Aus SQL entfernen</a>
             </div>
             <div class="col-12">
                 <div class="card m-5">

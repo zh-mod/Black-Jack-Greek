@@ -491,6 +491,14 @@ def csv_to_sql():
         return redirect(url_for('greek'))
 
 
+@app.route("/remove_from_sql/<greek_word>")
+def remove_from_sql(greek_word):
+    word = db.session.execute(db.select(Voci).where(Voci.greek == greek_word)).scalar()
+    db.session.delete(word)
+    db.session.commit()
+    return redirect(url_for('quiz_write_greek', chapter="a", type="a"))
+
+
 @app.route("/add_focus/<greek_word>")
 def add_focus(greek_word):
     word = db.session.execute(db.select(Voci).where(Voci.greek == greek_word)).scalar()
