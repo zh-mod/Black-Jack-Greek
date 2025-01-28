@@ -1,6 +1,4 @@
 ﻿καλά;gut;Adjektiv;Lehrbuch 1
-δύσκολα;schwierig;Adjektiv;Lehrbuch 1
-εύκολα;einfach;Adjektiv;Lehrbuch 1
 το μήνυμα;die Botschaft;Nomen;Lehrbuch 1
 το κινητό;das Handy;Nomen;Lehrbuch 1
 το καφέ;das Café;Nomen;Lehrbuch 1
@@ -35,7 +33,6 @@
 βέβαια;natürlich, freilich;Partikel;Lehrbuch 1
 λοιπόν;also;Partikel;Lehrbuch 1
 με;mit;Partikel;Lehrbuch 1
-στο;im, in;Partikel;Lehrbuch 1
 εδώ;hier;Partikel;Lehrbuch 1
 σε;in;Partikel;Lehrbuch 1
 από;von, aus;Partikel;Lehrbuch 1
@@ -413,7 +410,20 @@ o | η γιατρός;der Arzt;Nomen;Lehrbuch 2
 η οικογένεια;die Familie;Nomen;Lehrbuch 4
 το άλμπουμ;das Album;Nomen;Lehrbuch 4
 ποιος, -α, -ο;wer;Pronomen;Lehrbuch 4
-πρώτος, -η, -ο;erster;Adjektiv;Lehrbuch 4
+πρώτος, -η, -ο;erster;Zahlen;Lehrbuch 4
+δεύτερος, -η, -ο;zweiter;Zahlen;Lehrbuch 4
+τρίτος, -η, -ο;dritter;Zahlen;Lehrbuch 4
+τέταρτος, -η, -ο;vierter;Zahlen;Lehrbuch 4
+πέμπτος, -η, -ο;fènfter;Zahlen;Lehrbuch 4
+έκτος, -η, -ο;sechster;Zahlen;Lehrbuch 4
+έβδομος, -η, -ο;siebter;Zahlen;Lehrbuch 4
+όγδοος, -η, -ο;achter;Zahlen;Lehrbuch 4
+ένατος, -η, -ο;neunter;Zahlen;Lehrbuch 4
+δέκατος, -η, -ο;zehnter;Zahlen;Lehrbuch 4
+ενδέκατος, -η, -ο;elfter;Zahlen;Lehrbuch 4
+δωδέκατος, -η, -ο;zwölfter;Zahlen;Lehrbuch 4
+δέκατος τρίτος, -η, -ο;dreizehnter;Zahlen;Lehrbuch 4
+εικοστός, -ή, -ό;zwanzigster;Zahlen;Lehrbuch 4
 η σελίδα;die Seite;Nomen;Lehrbuch 4
 ίδιος, -η, -ο;gleich (wie);Adjektiv;Lehrbuch 4
 το όνομα;der Name;Nomen;Lehrbuch 4
@@ -446,6 +456,7 @@ o | η γιατρός;der Arzt;Nomen;Lehrbuch 2
 ο μπαμπάς;der Papa;Nomen;Lehrbuch 4
 επίσης;ebenfalls;Partikel;Lehrbuch 4
 εύκολος, -η, -ο | απλός, -ή, -ό;einfach;Adjektiv;Lehrbuch 4
+δύσκολος, -η, -ο;schwierig;Adjektiv;Lehrbuch 4
 διπλός, -ή, -ό;doppelt;Adjektiv;Lehrbuch 4
 τριπλός, -ή, -ό;dreifach;Adjektiv;Lehrbuch 4
 μοναδικός, -ή, -ό;einzigartig;Adjektiv;Lehrbuch 4
@@ -478,3 +489,89 @@ o | η γιατρός;der Arzt;Nomen;Lehrbuch 2
 ο χήρος;der Witwer;Nomen;Lehrbuch 4
 η χήρα;die Witwe;Nomen;Lehrbuch 4
 η σύζυγη;die Ehefrau;Nomen;Lehrbuch 4
+η λαική;der Wochenmarkt;Nomen;Lehrbuch 5
+η αγορά;der Markt;Nomen;Lehrbuch 5
+φρέσκος, -η, -ο;frisch;Adjektiv;Lehrbuch 5
+τα λαχανικά;das Gemüse;Nomen;Lehrbuch 5
+νόστιμος, -η, -ο;lecker;Adjektiv;Lehrbuch 5
+το φρούτο;das Obst;Nomen;Lehrbuch 5
+το πεπόνι;die Honigmelone;Nomen;Lehrbuch 5
+γλυκός, -ιά, -ό;süss;Adjektiv;Lehrbuch 5
+σαν;wie;Partikel;Lehrbuch 5
+το μέλι;der Honig;Nomen;Lehrbuch 5
+η μελιτζάνα;die Aubergine;Nomen;Lehrbuch 5
+ορίστε;bitte sehr;Partikel;Lehrbuch 5
+ζουμερός, -ή, -ό;saftig;Adjektiv;Lehrbuch 5
+το ροδάκινο;der Pfirsich;Nomen;Lehrbuch 5
+το μήλο;der Apfel;Nomen;Lehrbuch 5
+το αχλάδι;die Birne;Nomen;Lehrbuch 5
+το σύκο;die Feige;Nomen;Lehrbuch 5
+το σταφύλι;die Weintraube;Nomen;Lehrbuch 5
+ττο καρπούζι;die Wassermelone;Nomen;Lehrbuch 5
+η μπανάνα;die Banane;Nomen;Lehrbuch 5
+το βερίκοκο;die Aprikose;Nomen;Lehrbuch 5
+το πορτοκάλι;die Orange;Nomen;Lehrbuch 5
+η φράουλα;die Erdbeere;Nomen;Lehrbuch 5
+το μαρούλι;der Kopfsalat;Nomen;Lehrbuch 5
+το λάχανο;der Kohl;Nomen;Lehrbuch 5
+η ντομάτα;die Tomate;Nomen;Lehrbuch 5
+το αγγούρι;die Gurke;Nomen;Lehrbuch 5
+η πιπεριά;die Paprika;Nomen;Lehrbuch 5
+το κρεμμύδι;die Zwiebel;Nomen;Lehrbuch 5
+το σκόρδο;der Knoblauch;Nomen;Lehrbuch 5
+το σπανάκι;der Spinat;Nomen;Lehrbuch 5
+το κολοκυθάκι;die Zucchini;Nomen;Lehrbuch 5
+το καρότο;die Karotte;Nomen;Lehrbuch 5
+γι΄αυτό;deshalb;Spruch;Lehrbuch 5
+ο, η χορτοφάγος;der Vegetarier;Nomen;Lehrbuch 5
+κάθε;jeden;Partikel;Lehrbuch 5
+έχει;es gibt;Verb;Lehrbuch 5
+η γειτονιά;die Nachbarschaft;Nomen;Lehrbuch 5
+το ψάρι;der Fisch;Nomen;Lehrbuch 5
+η φορά;das Mal;Nomen;Lehrbuch 5
+για πρώτη φορά;zum ersten Mal;Spruch;Lehrbuch 5
+ο επισκέπτης;der Besucher, der Gast;Nomen;Lehrbuch 5
+βοηθάω;helfen;Verb;Lehrbuch 5
+τα ψώνια;die Einkäufe;Nomen;Lehrbuch 5
+ο μανάβης;der Obst- und Gemüsehändler;Nomen;Lehrbuch 5
+τα παιδιά;die jungen Leute;Nomen;Lehrbuch 5
+διάφορος, -η, -ο;verschieden;Adjektiv;Lehrbuch 5
+η φρουτοσαλάτα;der Obstsalat;Nomen;Lehrbuch 5
+το κιλό;das Kilo;Nomen;Lehrbuch 5
+αμέσως;sofort;Partikel;Lehrbuch 5
+μα;aber;Partikel;Lehrbuch 5
+ακριβός, -ή, -ό;teuer;Adjektiv;Lehrbuch 5
+μερικοί, -ές, -ά;einige, welche;Adjektiv;Lehrbuch 5
+το δίκιο;das Recht;Nomen;Lehrbuch 5
+έχω δίκιο;recht haben;Spruch;Lehrbuch 5
+το αγόρι;die Jungen;Nomen;Lehrbuch 5
+φτηνός, -ή, -ό;billig;Adjektiv;Lehrbuch 5
+μισός, -ή, -ό;halb;Adjektiv;Lehrbuch 5
+τίποτα άλλο;sonst noch was?;Partikel;Lehrbuch 5
+η μελιτζανοσαλάτα;der Auberginensalat;Nomen;Lehrbuch 5
+μου αρέσει;mir gefällt, ich mag;Spruch;Lehrbuch 5
+το κάτι άλλο;was ganz Besonderes;Spruch;Lehrbuch 5
+μήπως, -η, -ο;vielleicht;Adjektiv;Lehrbuch 5
+εκείνος, -η, -ο;jener;Adjektiv;Lehrbuch 5
+πάρα πολύ;sehr viel;Partikel;Lehrbuch 5
+τόσο;so;Partikel;Lehrbuch 5
+χρωστάω;schulden;Verb;Lehrbuch 5
+τι σας χρωστάμε;was bekommen Sie?;Spruch;Lehrbuch 5
+ζυγίζω;wiegen;Verb;Lehrbuch 5
+βάζω;legen, stellen;Verb;Lehrbuch 5
+η σακούλα;die Tüte;Nomen;Lehrbuch 5
+όλα μαζί;alles zusammen;Spruch;Lehrbuch 5
+το λεπτό;der Cent;Nomen;Lehrbuch 5
+ακριβώς;genau;Partikel;Lehrbuch 5
+το κρέας;das Fleisch;Nomen;Lehrbuch 5
+ο ψαράς;der Fischhändler;Nomen;Lehrbuch 5
+ο μπακάλης;der Lebensmittelhändler;Nomen;Lehrbuch 5
+ο χασάπης;der Metzger;Nomen;Lehrbuch 5
+ο φούρναρης;der Bäcker;Nomen;Lehrbuch 5
+ο ζαχαροπλάστης;der Konditor;Nomen;Lehrbuch 5
+το ιχθυοπωλείο, το ψαράδικο;das Fischgeschäft;Nomen;Lehrbuch 5
+το παντοπωλείο, μπακάλικο;das Lebensmittelgeschäft;Nomen;Lehrbuch 5
+το κρεοπωλείο, το χασάπικο;die Metzgerei;Nomen;Lehrbuch 5
+το οπωροπωλείο, το μανάβικο;das Obst- und Gemüsegeschäft;Nomen;Lehrbuch 5
+το αρτοποιείο, ο φούρνος;die Bäckerei;Nomen;Lehrbuch 5
+το ζαχαροπλαστείο;die Konditorei;Nomen;Lehrbuch 5
