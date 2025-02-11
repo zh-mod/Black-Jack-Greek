@@ -34,7 +34,7 @@
 λοιπόν;also;Partikel;Lehrbuch 1
 με;mit;Partikel;Lehrbuch 1
 εδώ;hier;Partikel;Lehrbuch 1
-σε;in;Partikel;Lehrbuch 1
+σε ;in, auf, bei, zu;Partikel;Lehrbuch 1
 από;von, aus;Partikel;Lehrbuch 1
 εμείς;wir;Pronomen;Lehrbuch 1
 εσείς;ihr;Pronomen;Lehrbuch 1
@@ -207,7 +207,6 @@ o | η γιατρός;der Arzt;Nomen;Lehrbuch 2
 τα ιταλικά;Italienisch;Orte & Sprachen;Lehrbuch 2
 η κατερίνη;Katerini (Stadt);Orte & Sprachen;Lehrbuch 2
 η Ελλάδα;Griechenland;Orte & Sprachen;Lehrbuch 2
-στον | στη;in, auf, an, bei, nach, zu;Partikel;Lehrbuch 2
 ή;oder;Partikel;Lehrbuch 2
 άλλα;andere;Partikel;Lehrbuch 2
 για;für;Partikel;Lehrbuch 2
@@ -597,3 +596,95 @@ o | η γιατρός;der Arzt;Nomen;Lehrbuch 2
 το σοκολατάκιο;die Praline;Nomen;Lehrbuch 5
 το γλυκά;die Süssigkeit;Nomen;Lehrbuch 5
 το παγωτό;das Speiseeis;Nomen;Lehrbuch 5
+προς;an;Partikel;Lehrbuch 6
+το θέμα;das Thema, der Betreff;Nomen;Lehrbuch 6
+το πάρτι;die Party;Nomen;Lehrbuch 6
+επιτέλους;endlich;Spruch;Lehrbuch 6
+το μπαλκόνι;der Balkon;Nomen;Lehrbuch 6
+φανταστικός, -ή, -ό;fantastisch;Adjektiv;Lehrbuch 6
+η θέα;die Aussicht;Nomen;Lehrbuch 6
+το φαγητό;das Essen;Nomen;Lehrbuch 6
+το πιοτό;das Trinken;Nomen;Lehrbuch 6
+δίπλα (σε);neben;Partikel;Lehrbuch 6
+ο κινηματογράφος, το σινεμά;das Kino;Nomen;Lehrbuch 6
+η διεύθυνση;die Adresse;Nomen;Lehrbuch 6
+γίνομαι;werden, geschehen;Verb;Lehrbuch 6
+δε γίνεται;es geht nicht;Spruch;Lehrbuch 6
+κατά;gegen, um (Zeit);Partikel;Lehrbuch 6
+σκέφτομαι;(sich) überlegen;Verb;Lehrbuch 6
+πώς να πάνε;wie sie fahren sollen;Spruch;Lehrbuch 6
+το λεωφορείο;der Bus;Nomen;Lehrbuch 6
+το ταξί;das Taxi;Nomen;Lehrbuch 6
+μπα;nee;Spruch;Lehrbuch 6
+καλύτερα;besser;Adjektiv;Lehrbuch 6
+το εισιτήριο;die Fahrkarte;Nomen;Lehrbuch 6
+η στάση;die Haltestelle;Nomen;Lehrbuch 6
+κοντά;in der Nähe;Partikel;Lehrbuch 6
+κατεβαίνω;hinabgehen, aussteigen;Verb;Lehrbuch 6
+η οδός;die Strasse;Nomen;Lehrbuch 6
+δεν έχω ιδέα;keine Ahnung haben;Spruch;Lehrbuch 6
+ρωτάω;fragen;Verb;Lehrbuch 6
+η κυρία;die Dame;Nomen;Lehrbuch 6
+λυπάμαι;bedauern, leid tun;Verb;Lehrbuch 6
+γνωρίζω;kennen;Verb;Lehrbuch 6
+από (ε)δώ;von hier;Partikel;Lehrbuch 6
+ο νεαρός;der junge Mann;Nomen;Lehrbuch 6
+με συγχωρείς;entschuldige!;Spruch;Lehrbuch 6
+θυμάμαι;sich erinnern;Verb;Lehrbuch 6
+απέναντι (από);gegenüber (von);Partikel;Lehrbuch 6
+μακριά (από);weit (entfernt von);Partikel;Lehrbuch 6
+πεντακόσια;fünfhundert;Zahlen;Lehrbuch 6
+το μέτρο;der Meter;Nomen;Lehrbuch 6
+περίπου;ungefähr;Partikel;Lehrbuch 6
+ούτε;nicht einmal;Partikel;Lehrbuch 6
+το πόδι;der Fuss;Nomen;Lehrbuch 6
+με τα πόδια;zu Fuss;Spruch;Lehrbuch 6
+ανεβαίνω;hinaufgehen;Verb;Lehrbuch 6
+στρίβω;einbiegen, abbiegen;Verb;Lehrbuch 6
+δεξιά;rechts;Partikel;Lehrbuch 6
+ευθεία;geradeaus;Partikel;Lehrbuch 6
+η διασταύρωση;die Kreuzung;Nomen;Lehrbuch 6
+αριστερά;links;Partikel;Lehrbuch 6
+η λεωφόρος;der Boulevard;Nomen;Lehrbuch 6
+το φανάρι;die Ampel;Nomen;Lehrbuch 6
+το τσιγάρο;die Zigarette;Nomen;Lehrbuch 6
+κανένα;irgendein;Partikel;Lehrbuch 6
+το περίπτερο;der Kiosk;Nomen;Lehrbuch 6
+πουθενά;nirgendwo, irgendwo (in Fragen);Partikel;Lehrbuch 6
+παντού;überall;Partikel;Lehrbuch 6
+ενδιαφέρω;interessieren;Verb;Lehrbuch 6
+καπνίζω;rauchen;Verb;Lehrbuch 6
+είμαι τυχερός, -ή;Glück haben;Spruch;Lehrbuch 6
+μπροστά (σε);vorne, davor;Partikel;Lehrbuch 6
+πίσω (σε);hinten, dahinter;Partikel;Lehrbuch 6
+πάνω (σε);auf, über;Partikel;Lehrbuch 6
+κάτω (σε);unten, unter;Partikel;Lehrbuch 6
+το φαρμακείο;die Apotheke;Nomen;Lehrbuch 6
+έρχομαι;kommen;Verb;Lehrbuch 6
+όπως;wie sie fahren sollen;Spruch;Lehrbuch 6
+η χάρη;der Gefallen;Nomen;Lehrbuch 6
+φέρνω;mit(bringen);Verb;Lehrbuch 6
+το πακέτο;das Paket;Nomen;Lehrbuch 6
+η τσίχλα;der Kaugummi;Nomen;Lehrbuch 6
+ασφαλώς;sicher, selbstverständlich;Adjektiv;Lehrbuch 6
+τα πάντα;alles;Nomen;Lehrbuch 6
+μέσα (σε);drin, innerhalb;Partikel;Lehrbuch 6
+έξω (σε);draussen, ausserhalb;Partikel;Lehrbuch 6
+εκατόν ένας, -μία, -ένα;101;Zahlen;Lehrbuch 6
+εκατόν πενήντα;150;Zahlen;Lehrbuch 6
+εκατόν ενενήντα εννιά;199;Zahlen;Lehrbuch 6
+διακόσιοι, -ες, -α;200;Zahlen;Lehrbuch 6
+τριακόσιοι, -ες, -α;300;Zahlen;Lehrbuch 6
+τετρακόσιοι, -ες, -α;400;Zahlen;Lehrbuch 6
+πεντακόσιοι, -ες, -α;500;Zahlen;Lehrbuch 6
+εξακόσιοι, -ες, -α;600;Zahlen;Lehrbuch 6
+εφτακόσιοι, -ες, -α;700;Zahlen;Lehrbuch 6
+οχτακόσιοι, -ες, -α;800;Zahlen;Lehrbuch 6
+εννιακόσιοι, -ες, -α;900;Zahlen;Lehrbuch 6
+χίλιοι, -ες, -α;1'000;Zahlen;Lehrbuch 6
+χίλια εκατόν εξήντα εφτά;1'167;Zahlen;Lehrbuch 6
+δύο χιλιάδες;2'000;Zahlen;Lehrbuch 6
+τρεις χιλιάδες;3'000;Zahlen;Lehrbuch 6
+τέσσερις χιλιάδες;4'000;Zahlen;Lehrbuch 6
+ένα εκατομμύριο;1'000'000;Zahlen;Lehrbuch 6
+ένα δισεκατομμύριο;1'000'000'000;Zahlen;Lehrbuch 6
