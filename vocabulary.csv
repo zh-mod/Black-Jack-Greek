@@ -592,8 +592,8 @@ o | η γιατρός;der Arzt;Nomen;Lehrbuch 2
 η μπριζόλη;das Kotelett;Nomen;Lehrbuch 5
 το λουκάνικo;das Würstchen;Nomen;Lehrbuch 5
 το ψωμί;das Brot;Nomen;Lehrbuch 5
-το κουλουράκιο;das Plätzchen;Nomen;Lehrbuch 5
-το σοκολατάκιο;die Praline;Nomen;Lehrbuch 5
+το κουλουράκι;das Plätzchen;Nomen;Lehrbuch 5
+το σοκολατάκι;die Praline;Nomen;Lehrbuch 5
 το γλυκά;die Süssigkeit;Nomen;Lehrbuch 5
 το παγωτό;das Speiseeis;Nomen;Lehrbuch 5
 προς;an;Partikel;Lehrbuch 6
@@ -619,7 +619,7 @@ o | η γιατρός;der Arzt;Nomen;Lehrbuch 2
 καλύτερα;besser;Adjektiv;Lehrbuch 6
 το εισιτήριο;die Fahrkarte;Nomen;Lehrbuch 6
 η στάση;die Haltestelle;Nomen;Lehrbuch 6
-κοντά;in der Nähe;Partikel;Lehrbuch 6
+κοντά (σε);in der Nähe;Partikel;Lehrbuch 6
 κατεβαίνω;hinabgehen, aussteigen;Verb;Lehrbuch 6
 η οδός;die Strasse;Nomen;Lehrbuch 6
 δεν έχω ιδέα;keine Ahnung haben;Spruch;Lehrbuch 6
@@ -631,7 +631,7 @@ o | η γιατρός;der Arzt;Nomen;Lehrbuch 2
 ο νεαρός;der junge Mann;Nomen;Lehrbuch 6
 με συγχωρείς;entschuldige!;Spruch;Lehrbuch 6
 θυμάμαι;sich erinnern;Verb;Lehrbuch 6
-απέναντι (από);gegenüber (von);Partikel;Lehrbuch 6
+απέναντι (σε, από);gegenüber (von);Partikel;Lehrbuch 6
 μακριά (από);weit (entfernt von);Partikel;Lehrbuch 6
 πεντακόσια;fünfhundert;Zahlen;Lehrbuch 6
 το μέτρο;der Meter;Nomen;Lehrbuch 6
@@ -655,10 +655,10 @@ o | η γιατρός;der Arzt;Nomen;Lehrbuch 2
 ενδιαφέρω;interessieren;Verb;Lehrbuch 6
 καπνίζω;rauchen;Verb;Lehrbuch 6
 είμαι τυχερός, -ή;Glück haben;Spruch;Lehrbuch 6
-μπροστά (σε);vorne, davor;Partikel;Lehrbuch 6
-πίσω (σε);hinten, dahinter;Partikel;Lehrbuch 6
-πάνω (σε);auf, über;Partikel;Lehrbuch 6
-κάτω (σε);unten, unter;Partikel;Lehrbuch 6
+μπροστά (σε, από);vorne, davor;Partikel;Lehrbuch 6
+πίσω (σε, από);hinten, dahinter;Partikel;Lehrbuch 6
+πάνω (σε, από);auf, über;Partikel;Lehrbuch 6
+κάτω (σε, από);unten, unter;Partikel;Lehrbuch 6
 το φαρμακείο;die Apotheke;Nomen;Lehrbuch 6
 έρχομαι;kommen;Verb;Lehrbuch 6
 όπως;wie sie fahren sollen;Spruch;Lehrbuch 6
@@ -669,7 +669,7 @@ o | η γιατρός;der Arzt;Nomen;Lehrbuch 2
 ασφαλώς;sicher, selbstverständlich;Adjektiv;Lehrbuch 6
 τα πάντα;alles;Nomen;Lehrbuch 6
 μέσα (σε);drin, innerhalb;Partikel;Lehrbuch 6
-έξω (σε);draussen, ausserhalb;Partikel;Lehrbuch 6
+έξω (σε, από);draussen, ausserhalb;Partikel;Lehrbuch 6
 εκατόν ένας, -μία, -ένα;101;Zahlen;Lehrbuch 6
 εκατόν πενήντα;150;Zahlen;Lehrbuch 6
 εκατόν ενενήντα εννιά;199;Zahlen;Lehrbuch 6
@@ -688,3 +688,106 @@ o | η γιατρός;der Arzt;Nomen;Lehrbuch 2
 τέσσερις χιλιάδες;4'000;Zahlen;Lehrbuch 6
 ένα εκατομμύριο;1'000'000;Zahlen;Lehrbuch 6
 ένα δισεκατομμύριο;1'000'000'000;Zahlen;Lehrbuch 6
+το ταχυδρομείο;die Post;Nomen;Lehrbuch 7
+ο σταθμός;der Bahnhof;Nomen;Lehrbuch 7
+η κάρτα;die Postkarte;Nomen;Lehrbuch 7
+αγαπητός, -ή, -ό;lieb;Adjektiv;Lehrbuch 7
+γράφω;schreiben;Verb;Lehrbuch 7
+ο καιρός;die Zeit;Nomen;Lehrbuch 7
+προχθές, προχτές;vorgestern;Partikel;Lehrbuch 7
+μένω;bleiben, übernachten;Verb;Lehrbuch 7
+χαριτωμένος, -η, -ο;hübsch, niedlich;Adjektiv;Lehrbuch 7
+το ξενοδοχείο;das Hotel;Nomen;Lehrbuch 7
+η ταβέρνα;die Taverne;Nomen;Lehrbuch 7
+ο ύπνος;der Schlaf;Nomen;Lehrbuch 7
+πάω για ύπνο;schlafen gehen;Verb;Lehrbuch 7
+κουρασμένος, -η, -ο;müde, erschöpft;Adjektiv;Lehrbuch 7
+η βόλτα;der Spaziergang;Nomen;Lehrbuch 7
+η Παλιά Πόλη;die Altstadt;Nomen;Lehrbuch 7
+το δώρο;das Geschenk;Nomen;Lehrbuch 7
+γνωρίζω;kennenlernen;Verb;Lehrbuch 7
+η Αθήνα;Athen;Nomen;Lehrbuch 7
+τα μπουζούκια;Lokal mit Live-Musik;Nomen;Lehrbuch 7
+χορεύω;tanzen;Verb;Lehrbuch 7
+την άλλη μέρα;am nächsten Tag;Spruch;Lehrbuch 7
+η εκδρομή;der Ausflug;Nomen;Lehrbuch 7
+ο ποταμός;der Fluss;Nomen;Lehrbuch 7
+το τοπίο;die Landschaft;Nomen;Lehrbuch 7
+πραγματικά;wirklich, echt;Adjektiv;Lehrbuch 7
+θαυμάσιος, -α, -ο;wunderbar;Adjektiv;Lehrbuch 7
+γραφικός, -η, -ο;malerisch;Adjektiv;Lehrbuch 7
+το τρένο;der Zug;Nomen;Lehrbuch 7
+το φιλί;der Kuss;Nomen;Lehrbuch 7
+η λιχουδιά;die Leckerei;Nomen;Lehrbuch 7
+ακούω;hören;Verb;Lehrbuch 7
+οι διακοπές;die Ferien;Nomen;Lehrbuch 7
+περασμένος, -η, -ο;vergangen;Adjektiv;Lehrbuch 7
+γυρίζω;zurückkommen, zurückkehren;Verb;Lehrbuch 7
+χθες, χτες;gestern;Partikel;Lehrbuch 7
+αργά;spät;Partikel;Lehrbuch 7
+η καθυστέρηση;die Verspätung;Nomen;Lehrbuch 7
+η Κρήτη;Kreta;Nomen;Lehrbuch 7
+φέτος;dieses Jahr;Partikel;Lehrbuch 7
+διαλέγω;aussuchen;Verb;Lehrbuch 7
+η Θράκη;Thrakien;Nomen;Lehrbuch 7
+σοβαρά;ernsthaft;Adjektiv;Lehrbuch 7
+ποτέ;nie;Partikel;Lehrbuch 7
+η παρέα;der Freundeskreis;Nomen;Lehrbuch 7
+συμπαθητικός, -ή, -ό;sympathisch;Adjektiv;Lehrbuch 7
+νοικιάζω;mieten, vermieten;Verb;Lehrbuch 7
+το αυτοκίνητο;das Auto;Nomen;Lehrbuch 7
+σχεδόν;fast;Partikel;Lehrbuch 7
+τo αξιοθέατo;die Sehenswürdigkeit;Nomen;Lehrbuch 7
+θαυμάζω;bewundern;Verb;Lehrbuch 7
+η εκκλησία;die Kirche;Nomen;Lehrbuch 7
+το τζαμί;die Moschee;Nomen;Lehrbuch 7
+το βουνό;der Berg;Nomen;Lehrbuch 7
+καταπληκτικός, -ή, -ό;fantastisch;Adjektiv;Lehrbuch 7
+το παζάρι;der Bazar;Nomen;Lehrbuch 7
+ανατολίτικος, -η, -ο;orientalisch;Adjektiv;Lehrbuch 7
+η ατμόσφαιρα;die Atmosphäre;Nomen;Lehrbuch 7
+ένα σωρό;eine Menge;Nomen;Lehrbuch 7
+ξοδεύω;ausgeben;Verb;Lehrbuch 7
+το πουκάμισο;das Hemd;Nomen;Lehrbuch 7
+η μπλούζα;das T-Shirt;Nomen;Lehrbuch 7
+όχι δα;nicht doch;Spruch;Lehrbuch 7
+η σπεσιαλιτέ;die Spezialität;Nomen;Lehrbuch 7
+το κουτί;die Schachtel;Nomen;Lehrbuch 7
+Παναγία μου!;Mein Gott!;Spruch;Lehrbuch 7
+δοκιμάζω;probieren;Verb;Lehrbuch 7
+χάνω;etw. verpassen;Verb;Lehrbuch 7
+προσέχω;aufpassen;Verb;Lehrbuch 7
+η σιλουέτα;die Figur;Nomen;Lehrbuch 7
+η δίαιτα;die Diät;Nomen;Lehrbuch 7
+το γράμμα;der Brief;Nomen;Lehrbuch 7
+αγαπητέ, αγαπητή;lieber, liebe;Spruch;Lehrbuch 7
+αξιότιμε κύριε, αξιότιμη κυρία;sehr geehrter, sehr geehrte;Spruch;Lehrbuch 7
+πολλά χαιρετίσματα;viele Grüsse;Spruch;Lehrbuch 7
+φιλάκια;Alles Liebe;Spruch;Lehrbuch 7
+με φιλικούς χαιρετισμούς;mit freundlichen Grüssen;Spruch;Lehrbuch 7
+με τιμή, με εκτίμηση;hochachtungsvoll;Spruch;Lehrbuch 7
+πριν;vorher;Partikel;Lehrbuch 7
+σήμερα;heute;Partikel;Lehrbuch 7
+μεθαύριο;übermorgen;Partikel;Lehrbuch 7
+πρώτα;zuerst;Partikel;Lehrbuch 7
+έπειτα;dann;Partikel;Lehrbuch 7
+του χρόνου;nächstes Jahr;Partikel;Lehrbuch 7
+πέρσι, πέρυσι;letztes Jahr;Partikel;Lehrbuch 7
+πρόπερσι, πρόπερυσι;vorletztes Jahr;Partikel;Lehrbuch 7
+ύστερα;dann, nachher;Partikel;Lehrbuch 7
+νωρίς;früh;Partikel;Lehrbuch 7
+αργά;spät;Partikel;Lehrbuch 7
+τότε;dann, damals;Partikel;Lehrbuch 7
+πάντα;immer;Partikel;Lehrbuch 7
+η φύση;die Natur;Nomen;Lehrbuch 7
+το πάρκο;der Park;Nomen;Lehrbuch 7
+το δάσος;der Wald;Nomen;Lehrbuch 7
+η πεδιάδα;die Ebene;Nomen;Lehrbuch 7
+η λίμνη;der See;Nomen;Lehrbuch 7
+η γέφυρα;die Brücke;Nomen;Lehrbuch 7
+το νησί;die Insel;Nomen;Lehrbuch 7
+το χωριό;das Dorf;Nomen;Lehrbuch 7
+τα αρχαία;die Altertümer;Nomen;Lehrbuch 7
+ο ναός;der Tempel;Nomen;Lehrbuch 7
+το μνημείο;das Denkmal;Nomen;Lehrbuch 7
+το μοναστήρι;das Kloster;Nomen;Lehrbuch 7
