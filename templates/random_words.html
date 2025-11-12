@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+{% extends 'base.html' %}
+{% block title %}Zufällige Wörter{% endblock %}
+
+{% block content %}
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="card m-5">
+                    <div class="card-body bg-dark">
+                        <h5 class="card-title text-center" style="color: white">{{ german_sentence }}</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="card m-5">
+                    <div class="card-body solution">
+                        <h5 class="card-title text-center">{{ greek_sentence }}</h5>
+                    </div>
+                </div>
+            </div>
+		</div>
+	</div>
+
+{% endblock %}

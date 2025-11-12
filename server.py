@@ -574,5 +574,17 @@ def quiz_write_greek(chapter, type):
     return render_template("quiz.html", german=current_word[1], greek=current_word[0], focus=current_word[2], chapter=chapter, type=type, words_left=words_left, count_unknown=count_unknown)
 
 
+@app.route("/random_words")
+def random_words():
+    pronomen = random.choice([(entry.greek, entry.german) for entry in db.session.execute(db.select(Voci).where(Voci.type == "Pronomen")).scalars()])
+    nomen = random.choice([(entry.greek, entry.german) for entry in db.session.execute(db.select(Voci).where(Voci.type == "Nomen")).scalars()])
+    verb = random.choice([(entry.greek, entry.german) for entry in db.session.execute(db.select(Voci).where(Voci.type == "Verb")).scalars()])
+    adjektiv = random.choice([(entry.greek, entry.german) for entry in db.session.execute(db.select(Voci).where(Voci.type == "Adjektiv")).scalars()])
+    partikel = random.choice([(entry.greek, entry.german) for entry in db.session.execute(db.select(Voci).where(Voci.type == "Partikel")).scalars()])
+    german_sentence = f"{pronomen[1]} - {nomen[1]} - {verb[1]} - {adjektiv[1]} - {partikel[1]}"
+    greek_sentence = f"{pronomen[0]} - {nomen[0]} - {verb[0]} - {adjektiv[0]} - {partikel[0]}"
+    return render_template("random_words.html", german_sentence=german_sentence, greek_sentence=greek_sentence)
+
+
 if __name__ == '__main__':
     app.run(debug=True)
