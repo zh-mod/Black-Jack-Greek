@@ -75,25 +75,25 @@
 Καλό μεσημέρι;Schönen Mittag;Spruch;Lehrbuch 1b
 Καλό απόγευμα;Schönen Nachmittag;Spruch;Lehrbuch 1b
 Καλό βράδυ;Schönen Abend;Spruch;Lehrbuch 1b
-στέλνω;schicken, senden;Verb;Lehrbuch 1b
-είμαι;sein;Verb;Lehrbuch 1b
-παίζω;spielen;Verb;Lehrbuch 1b
-ψάχνω;suchen;Verb;Lehrbuch 1b
-βρίσκω;finden;Verb;Lehrbuch 1b
-κάνω;tun, machen;Verb;Lehrbuch 1b
-μαγειρεύω;kochen;Verb;Lehrbuch 1b
-βλέπω;sehen, gucken;Verb;Lehrbuch 1b
-κερδίζω;gewinnen;Verb;Lehrbuch 1b
-διαβάζω;lesen;Verb;Lehrbuch 1b
-μπορώ;können;Verb;Lehrbuch 1b
-φτάνω;ankommen;Verb;Lehrbuch 1b
-χάνω;verlieren;Verb;Lehrbuch 1b
-πινω;trinken;Verb;Lehrbuch 1b
-ξέρω;wissen, kennen;Verb;Lehrbuch 1b
-καταλαβαίνω;verstehen;Verb;Lehrbuch 1b
-σπουδάζω;studieren;Verb;Lehrbuch 1b
-μαθαίνω;lernen;Verb;Lehrbuch 1b
-ελπίζω;hoffen;Verb;Lehrbuch 1b
+στέλνω > έστειλα;schicken, senden;Verb;Lehrbuch 1b
+είμαι > ήμουν;sein;Verb;Lehrbuch 1b
+παίζω > έπαιξα;spielen;Verb;Lehrbuch 1b
+ψάχνω > έψαξα;suchen;Verb;Lehrbuch 1b
+βρίσκω > βρήκα;finden;Verb;Lehrbuch 1b
+κάνω > έκανα;tun, machen;Verb;Lehrbuch 1b
+μαγειρεύω > μάγειρεψα;kochen;Verb;Lehrbuch 1b
+βλέπω > είδα;sehen, gucken;Verb;Lehrbuch 1b
+κερδίζω > κέρδισα;gewinnen;Verb;Lehrbuch 1b
+διαβάζω > διάβασα;lesen;Verb;Lehrbuch 1b
+μπορώ > μπόρεσα;können;Verb;Lehrbuch 1b
+φτάνω > έφτασα;ankommen;Verb;Lehrbuch 1b
+χάνω > έχασα;verlieren;Verb;Lehrbuch 1b
+πίνω > ήπια;trinken;Verb;Lehrbuch 1b
+ξέρω > έμαθα;wissen, kennen;Verb;Lehrbuch 1b
+καταλαβαίνω > κατάλαβα;verstehen;Verb;Lehrbuch 1b
+σπουδάζω > σπούδασα;studieren;Verb;Lehrbuch 1b
+μαθαίνω > έμαθα;lernen;Verb;Lehrbuch 1b
+ελπίζω > ελπίσα;hoffen;Verb;Lehrbuch 1b
 μηδέν;0;Zahlen;Lehrbuch 1b
 ένα;1;Zahlen;Lehrbuch 1b
 δύο;2;Zahlen;Lehrbuch 1b
@@ -231,27 +231,27 @@ o | η γιατρός;der Arzt;Nomen;Lehrbuch 2a
 ούτε ... oύτε;weder … noch;Spruch;Lehrbuch 2b
 "Τι δουλειά κάνετε;";Was machen Sie beruflich?;Spruch;Lehrbuch 2b
 "Τι δουλειά κάνεις;";Was machst du beruflich?;Spruch;Lehrbuch 2b
-έχω;haben;Verb;Lehrbuch 2b
-πουλάω;verkaufen;Verb;Lehrbuch 2b
-χαρίζω;(ver)schenken;Verb;Lehrbuch 2b
-μετακομίζω;umziehen;Verb;Lehrbuch 2b
- προτιμάω;bevorzugen;Verb;Lehrbuch 2b
-γελάω;lachen;Verb;Lehrbuch 2b
+έχω > είχα;haben;Verb;Lehrbuch 2b
+πουλάω > πούλησα;verkaufen;Verb;Lehrbuch 2b
+χαρίζω > χάρισα;(ver)schenken;Verb;Lehrbuch 2b
+μετακομίζω > μετακόμισα;umziehen;Verb;Lehrbuch 2b
+προτιμάω > προτίμησα;bevorzugen;Verb;Lehrbuch 2b
+γελάω > γέλασα;lachen;Verb;Lehrbuch 2b
 κάνω πλάκα;Spass machen;Verb;Lehrbuch 2b
-ζητάω;suchen nach, verlangen;Verb;Lehrbuch 2b
-μιλάω;sprechen, reden;Verb;Lehrbuch 2b
-αγαπάω;lieben, mögen;Verb;Lehrbuch 2b
+ζητάω > ζήτησα;suchen nach, verlangen;Verb;Lehrbuch 2b
+μιλάω > μίλησα;sprechen, reden;Verb;Lehrbuch 2b
+αγαπάω > αγάπησα;lieben, mögen;Verb;Lehrbuch 2b
 κάνω παζάρια;feilschen, handeln;Verb;Lehrbuch 2b
 παίρνω τηλέφωνο;anrufen;Verb;Lehrbuch 2b
-τηλεφωνώ;telefonieren;Verb;Lehrbuch 2b
-δουλεύω;arbeiten;Verb;Lehrbuch 2b
-ζω;leben;Verb;Lehrbuch 2b
-τρώω;essen;Verb;Lehrbuch 2b
-μένω;wohnen;Verb;Lehrbuch 2b
-θέλω;wollen, mögen;Verb;Lehrbuch 2b
-φεύγω;verlassen, weggehen;Verb;Lehrbuch 2b
-αγοράζω;kaufen;Verb;Lehrbuch 2b
-παίρνω;nehmen;Verb;Lehrbuch 2b
+τηλεφωνώ > τηλεφώνησα;telefonieren;Verb;Lehrbuch 2b
+δουλεύω > δούλεψα;arbeiten;Verb;Lehrbuch 2b
+ζω > έζησα;leben;Verb;Lehrbuch 2b
+τρώω > έφαγα;essen;Verb;Lehrbuch 2b
+μένω > έμεινα;wohnen;Verb;Lehrbuch 2b
+θέλω > ήθελα;wollen, mögen;Verb;Lehrbuch 2b
+φεύγω > έφυγα;verlassen, weggehen;Verb;Lehrbuch 2b
+αγοράζω > αγόρασα;kaufen;Verb;Lehrbuch 2b
+παίρνω > πήρα;nehmen;Verb;Lehrbuch 2b
 πενήντα;fünfzig;Zahlen;Lehrbuch 2b
 το πρόγραμμα;das Programm;Nomen;Lehrbuch 3a
 το καρνιβάλι;der Karneval;Nomen;Lehrbuch 3a
@@ -296,7 +296,7 @@ o | η γιατρός;der Arzt;Nomen;Lehrbuch 2a
 το μεσημέρι;der Mittag;Nomen;Lehrbuch 3a
 το ραντεβού;die Verabredung;Nomen;Lehrbuch 3a
 μετά (από);nach, danach;Partikel;Lehrbuch 3a
-περιμένω;warten;Verb;Lehrbuch 3a
+περιμένω > περίμενα;warten;Verb;Lehrbuch 3a
 η ώρα;die Zeit, die Stunde;Nomen;Lehrbuch 3a
 το γκαρσόν(ι);der Kellner;Nomen;Lehrbuch 3a
 κάτι;etwas;Partikel;Lehrbuch 3a
@@ -326,14 +326,14 @@ o | η γιατρός;der Arzt;Nomen;Lehrbuch 2a
 ίσως;vielleicht;Partikel;Lehrbuch 3b
 το αυτί;das Ohr;Nomen;Lehrbuch 3b
 πεταχτός, -ή, -ό;abstehend;Adjektiv;Lehrbuch 3b
-νομίζω;meinen;Verb;Lehrbuch 3b
-δείχνω;zeigen;Verb;Lehrbuch 3b
+νομίζω > νόμισα;meinen;Verb;Lehrbuch 3b
+δείχνω > έδειξα;zeigen;Verb;Lehrbuch 3b
 άλλος, -η, -ο;anderer;Adjektiv;Lehrbuch 3b
 όμορφος, -η, -ο;hübsch, nett;Adjektiv;Lehrbuch 3b
 εβδομήντα;siebzig;Zahlen;Lehrbuch 3b
 λεπτός, -ή, -ό;schlank, dünn;Adjektiv;Lehrbuch 3b
 ξανθός, -ή, -ό;blond;Adjektiv;Lehrbuch 3b
-επιθυμώ;wünschen;Verb;Lehrbuch 3b
+επιθυμώ > επιθύμησα;wünschen;Verb;Lehrbuch 3b
 ο χαρακτήρας;der Charakter;Nomen;Lehrbuch 3b
 υπέροχος, -η, -ο;wunderbar;Adjektiv;Lehrbuch 3b
 άσχημος, -η, -ο;hässlich;Adjektiv;Lehrbuch 3b
@@ -346,8 +346,8 @@ o | η γιατρός;der Arzt;Nomen;Lehrbuch 2a
 της;ihre;Pronomen;Lehrbuch 3b
 κάπως;etwas, irgendwie;Partikel;Lehrbuch 3b
 στραβός, -ή, -ό;schief;Adjektiv;Lehrbuch 3b
-λέω;sagen, meinen;Verb;Lehrbuch 3b
-πάω;gehen;Verb;Lehrbuch 3b
+λέω > είπα;sagen, meinen;Verb;Lehrbuch 3b
+πάω > πήγα;gehen;Verb;Lehrbuch 3b
 μαζί;zusammen;Partikel;Lehrbuch 3b
 η ιδέα;die Idee;Nomen;Lehrbuch 3b
 τριάντα;dreissig;Zahlen;Lehrbuch 3b
@@ -438,11 +438,11 @@ o | η γιατρός;der Arzt;Nomen;Lehrbuch 2a
 παντρεμένος, -η, -ο;verheiratet;Adjektiv;Lehrbuch 4a
 άρα;also;Partikel;Lehrbuch 4a
 τα ξαδέλφια;die Cousins & Cousinen;Nomen;Lehrbuch 4b
-σημαίνω;bedeuten;Verb;Lehrbuch 4b
+σημαίνω > σήμανα;bedeuten;Verb;Lehrbuch 4b
 ότι;dass;Partikel;Lehrbuch 4b
 η ξαδέλφη;die Cousine;Nomen;Lehrbuch 4b
 ο ξάδελφος;der Cousin;Nomen;Lehrbuch 4b
-υπάρχει;es gibt;Verb;Lehrbuch 4b
+υπάρχει > υπήρξε;es gibt;Verb;Lehrbuch 4b
 τα αδέλφια;die Geschwister;Nomen;Lehrbuch 4b
 το γούστο;der Geschmack;Nomen;Lehrbuch 4b
 η σχέση;die Beziehung;Nomen;Lehrbuch 4b
@@ -460,7 +460,7 @@ o | η γιατρός;der Arzt;Nomen;Lehrbuch 2a
 μοναδικός, -ή, -ό;einzigartig;Adjektiv;Lehrbuch 4b
 μόνος, -η, -ο;einzig;Adjektiv;Lehrbuch 4b
 κι;und, auch;Partikel;Lehrbuch 4b
-δίνω;geben;Verb;Lehrbuch 4b
+δίνω > έδωσα;geben;Verb;Lehrbuch 4b
 η αλήθεια;die Wahrheit;Nomen;Lehrbuch 4b
 αυτό ειναι αλήθεια;das stimmt;Spruch;Lehrbuch 4b
 το μοναχοπαίδι;das Einzelkind;Nomen;Lehrbuch 4b
@@ -523,13 +523,13 @@ o | η γιατρός;der Arzt;Nomen;Lehrbuch 2a
 γι΄αυτό;deshalb;Spruch;Lehrbuch 5a
 ο, η χορτοφάγος;der Vegetarier;Nomen;Lehrbuch 5a
 κάθε;jeden;Partikel;Lehrbuch 5a
-έχει;es gibt;Verb;Lehrbuch 5a
+έχει > είχε;es gibt;Verb;Lehrbuch 5a
 η γειτονιά;die Nachbarschaft;Nomen;Lehrbuch 5a
 το ψάρι;der Fisch;Nomen;Lehrbuch 5a
 η φορά;das Mal;Nomen;Lehrbuch 5a
 για πρώτη φορά;zum ersten Mal;Spruch;Lehrbuch 5a
 ο επισκέπτης;der Besucher, der Gast;Nomen;Lehrbuch 5a
-βοηθάω;helfen;Verb;Lehrbuch 5a
+βοηθάω > βοήθησα;helfen;Verb;Lehrbuch 5a
 τα ψώνια;die Einkäufe;Nomen;Lehrbuch 5a
 ο μανάβης;der Obst- und Gemüsehändler;Nomen;Lehrbuch 5a
 τα παιδιά;die jungen Leute;Nomen;Lehrbuch 5a
@@ -553,10 +553,10 @@ o | η γιατρός;der Arzt;Nomen;Lehrbuch 2a
 εκείνος, -η, -ο;jener;Adjektiv;Lehrbuch 5b
 πάρα πολύ;sehr viel;Partikel;Lehrbuch 5b
 τόσο;so;Partikel;Lehrbuch 5b
-χρωστάω;schulden;Verb;Lehrbuch 5b
+χρωστάω > χρωστούσα;schulden;Verb;Lehrbuch 5b
 τι σας χρωστάμε;was bekommen Sie?;Spruch;Lehrbuch 5b
-ζυγίζω;wiegen;Verb;Lehrbuch 5b
-βάζω;legen, stellen;Verb;Lehrbuch 5b
+ζυγίζω > ζύγισα;wiegen;Verb;Lehrbuch 5b
+βάζω > έβαλα;legen, stellen;Verb;Lehrbuch 5b
 η σακούλα;die Tüte;Nomen;Lehrbuch 5b
 όλα μαζί;alles zusammen;Spruch;Lehrbuch 5b
 το λεπτό;der Cent;Nomen;Lehrbuch 5b
@@ -607,10 +607,10 @@ o | η γιατρός;der Arzt;Nomen;Lehrbuch 2a
 δίπλα (σε);neben;Partikel;Lehrbuch 6a
 ο κινηματογράφος, το σινεμά;das Kino;Nomen;Lehrbuch 6a
 η διεύθυνση;die Adresse;Nomen;Lehrbuch 6a
-γίνομαι;werden, geschehen;Verb;Lehrbuch 6a
+γίνομαι > έγινα;werden, geschehen;Verb;Lehrbuch 6a
 δε γίνεται;es geht nicht;Spruch;Lehrbuch 6a
 κατά;gegen, um (Zeit);Partikel;Lehrbuch 6a
-σκέφτομαι;(sich) überlegen;Verb;Lehrbuch 6a
+σκέφτομαι > σκέφτηκα;(sich) überlegen;Verb;Lehrbuch 6a
 πώς να πάνε;wie sie fahren sollen;Spruch;Lehrbuch 6a
 το λεωφορείο;der Bus;Nomen;Lehrbuch 6a
 το ταξί;das Taxi;Nomen;Lehrbuch 6a
@@ -619,17 +619,17 @@ o | η γιατρός;der Arzt;Nomen;Lehrbuch 2a
 το εισιτήριο;die Fahrkarte;Nomen;Lehrbuch 6a
 η στάση;die Haltestelle;Nomen;Lehrbuch 6a
 κοντά (σε);in der Nähe;Partikel;Lehrbuch 6a
-κατεβαίνω;hinabgehen, aussteigen;Verb;Lehrbuch 6a
+κατεβαίνω > κατέβηκα;hinabgehen, aussteigen;Verb;Lehrbuch 6a
 η οδός;die Strasse;Nomen;Lehrbuch 6a
 δεν έχω ιδέα;keine Ahnung haben;Spruch;Lehrbuch 6a
-ρωτάω;fragen;Verb;Lehrbuch 6a
+ρωτάω > ρώτησα;fragen;Verb;Lehrbuch 6a
 η κυρία;die Dame;Nomen;Lehrbuch 6a
-λυπάμαι;bedauern, leid tun;Verb;Lehrbuch 6a
-γνωρίζω;kennen;Verb;Lehrbuch 6a
+λυπάμαι > λυπήθηκα;bedauern, leid tun;Verb;Lehrbuch 6a
+γνωρίζω > γνώρισα;kennen;Verb;Lehrbuch 6a
 από (ε)δώ;von hier;Partikel;Lehrbuch 6a
 ο νεαρός;der junge Mann;Nomen;Lehrbuch 6a
 με συγχωρείς;entschuldige!;Spruch;Lehrbuch 6a
-θυμάμαι;sich erinnern;Verb;Lehrbuch 6a
+θυμάμαι > θυμήθηκα;sich erinnern;Verb;Lehrbuch 6a
 απέναντι (σε, από);gegenüber (von);Partikel;Lehrbuch 6a
 μακριά (από);weit (entfernt von);Partikel;Lehrbuch 6a
 πεντακόσια;fünfhundert;Zahlen;Lehrbuch 6a
@@ -638,8 +638,8 @@ o | η γιατρός;der Arzt;Nomen;Lehrbuch 2a
 ούτε;nicht einmal;Partikel;Lehrbuch 6a
 το πόδι;der Fuss;Nomen;Lehrbuch 6a
 με τα πόδια;zu Fuss;Spruch;Lehrbuch 6a
-ανεβαίνω;hinaufgehen;Verb;Lehrbuch 6a
-στρίβω;einbiegen, abbiegen;Verb;Lehrbuch 6a
+ανεβαίνω > ανέβηκα;hinaufgehen;Verb;Lehrbuch 6a
+στρίβω > στρίψα;einbiegen, abbiegen;Verb;Lehrbuch 6a
 δεξιά;rechts;Partikel;Lehrbuch 6a
 ευθεία;geradeaus;Partikel;Lehrbuch 6b
 η διασταύρωση;die Kreuzung;Nomen;Lehrbuch 6b
@@ -651,18 +651,18 @@ o | η γιατρός;der Arzt;Nomen;Lehrbuch 2a
 το περίπτερο;der Kiosk;Nomen;Lehrbuch 6b
 πουθενά;nirgendwo, irgendwo (in Fragen);Partikel;Lehrbuch 6b
 παντού;überall;Partikel;Lehrbuch 6b
-ενδιαφέρω;interessieren;Verb;Lehrbuch 6b
-καπνίζω;rauchen;Verb;Lehrbuch 6b
+ενδιαφέρω > ενδιαφέρθηκα;interessieren;Verb;Lehrbuch 6b
+καπνίζω > κάπνισα;rauchen;Verb;Lehrbuch 6b
 είμαι τυχερός, -ή;Glück haben;Spruch;Lehrbuch 6b
 μπροστά (σε, από);vorne, davor;Partikel;Lehrbuch 6b
 πίσω (σε, από);hinten, dahinter;Partikel;Lehrbuch 6b
 πάνω (σε, από);auf, über;Partikel;Lehrbuch 6b
 κάτω (σε, από);unten, unter;Partikel;Lehrbuch 6b
 το φαρμακείο;die Apotheke;Nomen;Lehrbuch 6b
-έρχομαι;kommen;Verb;Lehrbuch 6b
+έρχομαι > ήρθα;kommen;Verb;Lehrbuch 6b
 όπως;wie sie fahren sollen;Spruch;Lehrbuch 6b
 η χάρη;der Gefallen;Nomen;Lehrbuch 6b
-φέρνω;mit(bringen);Verb;Lehrbuch 6b
+φέρνω > έφερα;mit(bringen);Verb;Lehrbuch 6b
 το πακέτο;das Paket;Nomen;Lehrbuch 6b
 η τσίχλα;der Kaugummi;Nomen;Lehrbuch 6b
 ασφαλώς;sicher, selbstverständlich;Adjektiv;Lehrbuch 6b
@@ -691,10 +691,10 @@ o | η γιατρός;der Arzt;Nomen;Lehrbuch 2a
 ο σταθμός;der Bahnhof;Nomen;Lehrbuch 7a
 η κάρτα;die Postkarte;Nomen;Lehrbuch 7a
 αγαπητός, -ή, -ό;lieb;Adjektiv;Lehrbuch 7a
-γράφω;schreiben;Verb;Lehrbuch 7a
+γράφω > έγραψα;schreiben;Verb;Lehrbuch 7a
 ο καιρός;die Zeit;Nomen;Lehrbuch 7a
 προχθές, προχτές;vorgestern;Partikel;Lehrbuch 7a
-μένω;bleiben, übernachten;Verb;Lehrbuch 7a
+μένω > έμεινα;bleiben, übernachten;Verb;Lehrbuch 7a
 χαριτωμένος, -η, -ο;hübsch, niedlich;Adjektiv;Lehrbuch 7a
 το ξενοδοχείο;das Hotel;Nomen;Lehrbuch 7a
 η ταβέρνα;die Taverne;Nomen;Lehrbuch 7a
@@ -704,10 +704,10 @@ o | η γιατρός;der Arzt;Nomen;Lehrbuch 2a
 η βόλτα;der Spaziergang;Nomen;Lehrbuch 7a
 η Παλιά Πόλη;die Altstadt;Nomen;Lehrbuch 7a
 το δώρο;das Geschenk;Nomen;Lehrbuch 7a
-γνωρίζω;kennenlernen;Verb;Lehrbuch 7a
+γνωρίζω > γνώρισα;kennenlernen;Verb;Lehrbuch 7a
 η Αθήνα;Athen;Nomen;Lehrbuch 7a
 τα μπουζούκια;Lokal mit Live-Musik;Nomen;Lehrbuch 7a
-χορεύω;tanzen;Verb;Lehrbuch 7a
+χορεύω > χόρεψα;tanzen;Verb;Lehrbuch 7a
 την άλλη μέρα;am nächsten Tag;Spruch;Lehrbuch 7a
 η εκδρομή;der Ausflug;Nomen;Lehrbuch 7a
 ο ποταμός;der Fluss;Nomen;Lehrbuch 7a
@@ -718,26 +718,26 @@ o | η γιατρός;der Arzt;Nomen;Lehrbuch 2a
 το τρένο;der Zug;Nomen;Lehrbuch 7a
 το φιλί;der Kuss;Nomen;Lehrbuch 7a
 η λιχουδιά;die Leckerei;Nomen;Lehrbuch 7a
-ακούω;hören;Verb;Lehrbuch 7a
+ακούω > άκουσα;hören;Verb;Lehrbuch 7a
 οι διακοπές;die Ferien;Nomen;Lehrbuch 7a
 περασμένος, -η, -ο;vergangen;Adjektiv;Lehrbuch 7a
-γυρίζω;zurückkommen, zurückkehren;Verb;Lehrbuch 7a
+γυρίζω > γύρισα;zurückkommen, zurückkehren;Verb;Lehrbuch 7a
 χθες, χτες;gestern;Partikel;Lehrbuch 7a
 αργά;spät;Partikel;Lehrbuch 7a
 η καθυστέρηση;die Verspätung;Nomen;Lehrbuch 7a
 η Κρήτη;Kreta;Nomen;Lehrbuch 7a
 φέτος;dieses Jahr;Partikel;Lehrbuch 7a
-διαλέγω;aussuchen;Verb;Lehrbuch 7a
+διαλέγω > διάλεξα;aussuchen;Verb;Lehrbuch 7a
 η Θράκη;Thrakien;Nomen;Lehrbuch 7a
 σοβαρά;ernsthaft;Adjektiv;Lehrbuch 7a
 ποτέ;nie;Partikel;Lehrbuch 7a
 η παρέα;der Freundeskreis;Nomen;Lehrbuch 7a
 συμπαθητικός, -ή, -ό;sympathisch;Adjektiv;Lehrbuch 7a
-νοικιάζω;mieten, vermieten;Verb;Lehrbuch 7a
+νοικιάζω > νοίκιασα;mieten, vermieten;Verb;Lehrbuch 7a
 το αυτοκίνητο;das Auto;Nomen;Lehrbuch 7a
 σχεδόν;fast;Partikel;Lehrbuch 7a
 τo αξιοθέατo;die Sehenswürdigkeit;Nomen;Lehrbuch 7a
-θαυμάζω;bewundern;Verb;Lehrbuch 7a
+θαυμάζω > θαύμασα;bewundern;Verb;Lehrbuch 7a
 η εκκλησία;die Kirche;Nomen;Lehrbuch 7b
 το τζαμί;die Moschee;Nomen;Lehrbuch 7b
 το βουνό;der Berg;Nomen;Lehrbuch 7b
@@ -746,16 +746,16 @@ o | η γιατρός;der Arzt;Nomen;Lehrbuch 2a
 ανατολίτικος, -η, -ο;orientalisch;Adjektiv;Lehrbuch 7b
 η ατμόσφαιρα;die Atmosphäre;Nomen;Lehrbuch 7b
 ένα σωρό;eine Menge;Nomen;Lehrbuch 7b
-ξοδεύω;ausgeben;Verb;Lehrbuch 7b
+ξοδεύω > ξόδεψα;ausgeben;Verb;Lehrbuch 7b
 το πουκάμισο;das Hemd;Nomen;Lehrbuch 7b
 η μπλούζα;das T-Shirt;Nomen;Lehrbuch 7b
 όχι δα;nicht doch;Spruch;Lehrbuch 7b
 η σπεσιαλιτέ;die Spezialität;Nomen;Lehrbuch 7b
 το κουτί;die Schachtel;Nomen;Lehrbuch 7b
 Παναγία μου!;Mein Gott!;Spruch;Lehrbuch 7b
-δοκιμάζω;probieren;Verb;Lehrbuch 7b
-χάνω;etw. verpassen;Verb;Lehrbuch 7b
-προσέχω;aufpassen;Verb;Lehrbuch 7b
+δοκιμάζω > δόκιμασα;probieren;Verb;Lehrbuch 7b
+χάνω > έχασα;etw. verpassen;Verb;Lehrbuch 7b
+προσέχω > πρόσεξα;aufpassen;Verb;Lehrbuch 7b
 η σιλουέτα;die Figur;Nomen;Lehrbuch 7b
 η δίαιτα;die Diät;Nomen;Lehrbuch 7b
 το γράμμα;der Brief;Nomen;Lehrbuch 7b
@@ -799,15 +799,15 @@ o | η γιατρός;der Arzt;Nomen;Lehrbuch 2a
 παιδικός, -ή -ό;Kinder-;Adjektiv;Lehrbuch 8a
 η ηλικία;das Alter;Nomen;Lehrbuch 8a
 η παιδική ηλικία;die Kindheit;Nomen;Lehrbuch 8a
-πειράζω;ärgern;Verb;Lehrbuch 8a
+πειράζω > πήραξα;ärgern;Verb;Lehrbuch 8a
 συχνά;oft;Partikel;Lehrbuch 8a
-κλαίω;weinen;Verb;Lehrbuch 8a
-φωνάζω;schreien, rufen;Verb;Lehrbuch 8a
-μαλώνω;ausschimpfen;Verb;Lehrbuch 8a
+κλαίω > έκλαψα;weinen;Verb;Lehrbuch 8a
+φωνάζω > φωνάξα;schreien, rufen;Verb;Lehrbuch 8a
+μαλώνω > μαλώσα;ausschimpfen;Verb;Lehrbuch 8a
 το σχολείο;die Schule;Nomen;Lehrbuch 8a
 το κρυφτό;das Versteck;Nomen;Lehrbuch 8a
 το κυνηγητό;die Jagd;Nomen;Lehrbuch 8a
-περνάω;vorbeigehen, verbringen;Verb;Lehrbuch 8a
+περνάω > πέρασα;vorbeigehen, verbringen;Verb;Lehrbuch 8a
 το κομπιούτερ;der Computer;Nomen;Lehrbuch 8a
 η τηλεόραση;der Fernseher;Nomen;Lehrbuch 8a
 η τρέλα;der Wahnsinn;Nomen;Lehrbuch 8a
@@ -817,16 +817,16 @@ o | η γιατρός;der Arzt;Nomen;Lehrbuch 2a
 το πανεπιστήμιο;die Universität;Nomen;Lehrbuch 8a
 ο συμμαυητής;der Klassenkamerad;Nomen;Lehrbuch 8a
 εδώ και;seit;Partikel;Lehrbuch 8a
-αργώ;sich verspäten;Verb;Lehrbuch 8a
-συναντάω;treffen;Verb;Lehrbuch 8a
-εννοώ;meinen;Verb;Lehrbuch 8a
+αργώ > άργησα;sich verspäten;Verb;Lehrbuch 8a
+συναντάω > συνάντησα;treffen;Verb;Lehrbuch 8a
+εννοώ > ένιωσα;meinen;Verb;Lehrbuch 8a
 το μάθημα;der Unterricht;Nomen;Lehrbuch 8a
 τα πατατάκια;die Chips;Nomen;Lehrbuch 8a
 μωρέ!;Mensch!;Spruch;Lehrbuch 8a
 η τάξη;die (Schul-)Klasse;Nomen;Lehrbuch 8a
 κάνω παρέα;befreundet sein mit;Verb;Lehrbuch 8a
 το καλοκαίρι;der Sommer;Nomen;Lehrbuch 8a
-φοράω;tragen, anziehen;Verb;Lehrbuch 8a
+φοράω > φόρεσα;tragen, anziehen;Verb;Lehrbuch 8a
 παρδαλός;bunt;Adjektiv;Lehrbuch 8a
 ο χειμώνας;der Winter;Nomen;Lehrbuch 8a
 δερμάτινος;aus Leder;Nomen;Lehrbuch 8a
@@ -834,18 +834,18 @@ o | η γιατρός;der Arzt;Nomen;Lehrbuch 2a
 έχω μανία (με);besessen sein (von);Verb;Lehrbuch 8a
 από μικρός;von klein auf;Adjektiv;Lehrbuch 8a
 το μπουζούκι;die Bouzoukia;Nomen;Lehrbuch 8a
-λείπω;fehlen, abwesend sein;Verb;Lehrbuch 8a
-καλώ;einladen;Verb;Lehrbuch 8a
+λείπω > έλειψα;fehlen, abwesend sein;Verb;Lehrbuch 8a
+καλώ > κάλεσα;einladen;Verb;Lehrbuch 8a
 γεμάτος, -η, -ο;voll;Adjektiv;Lehrbuch 8a
 καθώς;während;Zeitangaben;Lehrbuch 8a
 δυνατά;stark, laut;Adjektiv;Lehrbuch 8a
 ξαφνικά;plötzlich;Partikel;Lehrbuch 8a
-ανοίγω;öffnen;Verb;Lehrbuch 8a
-τρομάζω;erschrecken;Verb;Lehrbuch 8b
+ανοίγω > άνοιξα;öffnen;Verb;Lehrbuch 8a
+τρομάζω > τρόμαξα;erschrecken;Verb;Lehrbuch 8b
 για τα καλά;richtig, wie es sich gehört;Adjektiv;Lehrbuch 8b
 ενώ;während;Partikel;Lehrbuch 8b
 η μάνα;die Mutter;Nomen;Lehrbuch 8b
-ουρλιάζω;kreischen;Verb;Lehrbuch 8b
+ουρλιάζω > ουρλιάξα;kreischen;Verb;Lehrbuch 8b
 πονηρά;verschmitzt;Adjektiv;Lehrbuch 8b
 η καρδιά;das Herz;Nomen;Lehrbuch 8b
 το δημοτικό;die Grundschule;Nomen;Lehrbuch 8b
@@ -853,7 +853,7 @@ o | η γιατρός;der Arzt;Nomen;Lehrbuch 2a
 το λούνα παρκ;der Vergnügungspark;Nomen;Lehrbuch 8b
 το μαλλί της γριάς;die Zuckerwatte;Nomen;Lehrbuch 8b
 περνάω καλά;es gut haben;Verb;Lehrbuch 8b
-περνάω;vergehen (Zeit);Verb;Lehrbuch 8b
+περνάω > πέρασα;vergehen (Zeit);Verb;Lehrbuch 8b
 τουλάχιστον;mindestens;Partikel;Lehrbuch 8b
 ο χρόνος;das Jahr, die Zeit;Nomen;Lehrbuch 8b
 από τότε που;seitdem;Partikel;Lehrbuch 8b
@@ -862,13 +862,13 @@ o | η γιατρός;der Arzt;Nomen;Lehrbuch 2a
 η Νομική;die Jura;Nomen;Lehrbuch 8b
 το γραφείο;das Büro;Nomen;Lehrbuch 8b
 το δικηγορικό γραφείο;die Rechtskanzlei;Nomen;Lehrbuch 8b
-αλλάζω;sich verändern;Verb;Lehrbuch 8b
+αλλάζω > άλλαξα;sich verändern;Verb;Lehrbuch 8b
 λιγάκι;ein wenig;Partikel;Lehrbuch 8b
 πια;mehr;Adjektiv;Lehrbuch 8b
 η όρεξη;die Lust;Nomen;Lehrbuch 8b
 περνάω μια βόλτα;vorbeischauen;Verb;Lehrbuch 8b
 από εκεί;von dort;Partikel;Lehrbuch 8b
-βγαίνω;ausgehen;Verb;Lehrbuch 8b
+βγαίνω > βγήκα;ausgehen;Verb;Lehrbuch 8b
 η συναυλία;das Konzert;Nomen;Lehrbuch 8b
 η έκθεση;die Ausstellung;Nomen;Lehrbuch 8b
 το μουσείο;das Museum;Nomen;Lehrbuch 8b
@@ -878,7 +878,7 @@ o | η γιατρός;der Arzt;Nomen;Lehrbuch 2a
 τα χαρτιά;das Kartenspiel;Nomen;Lehrbuch 8b
 η εφημερίδα;die Zeitung;Nomen;Lehrbuch 8b
 η μυθιστόρημα;der Roman;Nomen;Lehrbuch 8b
-ταξιδεύω;reisen;Verb;Lehrbuch 8b
+ταξιδεύω > ταξίδεψα;reisen;Verb;Lehrbuch 8b
 ο Ιανουάριος;Januar;Zeitangaben;Lehrbuch 8b
 ο Φεβρουάριος;Februar;Zeitangaben;Lehrbuch 8b
 ο Μάρτιος;März;Zeitangaben;Lehrbuch 8b
